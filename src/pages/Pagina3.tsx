@@ -5,7 +5,7 @@ export default function Pagina3() {
             <br></br>
             <a href="/">inicio</a>
             <br></br>
-            <a href="/pagina3">pagina 3</a>
+            <a href="/pagina2">pagina 2</a>
         </>
     );
 }

@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from './pages/App';
-import Pagina2 from "./pages/Pagina2";
-import Pagina3 from "./pages/Pagina3";
+import App from "./pages/App";
+import Carta from "./pages/Carta";
+import MenuDeGrupo from "./pages/MenuDeGrupo";
+import Reservas from "./pages/Reservas";
 
 export const router = createBrowserRouter([
     {
@@ -9,11 +10,15 @@ export const router = createBrowserRouter([
         element: <App />,
     },
     {
-        path: '/pagina2',
-        element: <Pagina2 />,
+        path: '/carta',
+        element: <Carta />,
     },
     {
-        path: '/pagina3',
-        element: <Pagina3 />,
+        path: '/menu-de-grupo',
+        element: <MenuDeGrupo />,
+    },
+    {
+        path: '/reservas',
+        element: <Reservas />,
     },
 ]);

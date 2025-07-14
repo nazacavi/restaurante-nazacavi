@@ -13,11 +13,11 @@ export default function Header() {
               />
 
               <nav>
-                  <a href="./">INICIO</a>
-                  <a href="./carta/carta.html">CARTA</a>	
-                  <a href="./especialidades/especialidades.html">ESPECIALIDADES</a>	
-                  <a href="./menu-grupo/menu-grupo.html">MENÚS DE GRUPO</a>
-                  <a href="./reservas/reservas.html">RESERVAS</a>
+                  <a href="/">INICIO</a>
+                  <a href="/carta">CARTA</a>	
+                  <a href="/especialidades">ESPECIALIDADES</a>	
+                  <a href="/menu-de-grupo">MENÚS DE GRUPO</a>
+                  <a href="/reservas">RESERVAS</a>
               </nav>
             </header>
         </>

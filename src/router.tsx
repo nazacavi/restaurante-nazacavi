@@ -3,6 +3,7 @@ import App from "./pages/App";
 import Carta from "./pages/Carta";
 import MenuDeGrupo from "./pages/MenuDeGrupo";
 import Reservas from "./pages/Reservas";
+import Especialidades from "./pages/Especialidades";
 
 export const router = createBrowserRouter([
     {
@@ -20,5 +21,9 @@ export const router = createBrowserRouter([
     {
         path: '/reservas',
         element: <Reservas />,
+    },
+    {
+        path: '/especialidades',
+        element: <Especialidades />
     },
 ]);

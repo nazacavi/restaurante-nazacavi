@@ -10,7 +10,7 @@ export default function App() {
 
       <main>
           <section>
-              <h1>Bienvenido</h1>
+              <h1 id='inicio'> bienvenido</h1>
 
               <img
                   src="./imagenes/restaurante/imagen-portada.JPG"

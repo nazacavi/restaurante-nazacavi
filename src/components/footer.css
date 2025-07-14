@@ -1,16 +1,41 @@
 
 footer {
-    background-color: rgb(254, 232, 203);
+      background-color: #000;
+      color: #fff; 
+      font-size: 15px;
+      font-family: "Segoe UI";  
+      margin-top: 40px;    
+}
+
+.footer-navegador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    height: 70px; 
+}
+   
+ .enlaces-footer {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.3s;
+  padding: 8px 15px; 
+}
+
+.enlaces-footer:hover {
+    background-color: #4b4b4b;  
+}
+
+hr {
+    color: #4b4b4b;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .footer-informacion {
     display: flex;
     flex-direction: row;
-}
-
-.navegador {
-    display: flex;
-    flex-direction: column;
 }
 
 .redes-sociales {
@@ -26,16 +51,11 @@ footer {
     flex-direction: column;
 }
 
-.footer-navegador {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: rgb(248, 214, 169);     
-}
-
-a { 
-    color: #4b4b4b; ;
-    text-decoration: none; 
+.redes-sociales a { 
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;   
 }
 
 

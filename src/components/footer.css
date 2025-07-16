@@ -54,8 +54,7 @@ hr {
   font-size: 13px;
 }
 
-
-h2 {
+h3 {
   font-size: 15px;
   margin-bottom: 10px;
   color: #cfcdcd;
@@ -74,17 +73,17 @@ a:hover {
 }
 
 div a {
-  color: #eee4a2;
+  color: var(--color-principal);
   text-decoration:none;
    
 }
 
 address {
-  color: #eee4a2;
+  color: var(--color-principal);
 }
 
 i {
-  color: #eee4a2;
+  color: var(--color-principal);
   margin-right: 5px;
 }
 
@@ -94,7 +93,7 @@ ul {
 
 li a {
   text-decoration: none;
-  color: #eee4a2;
+  color: var(--color-principal);
 }
 
 .horario table {
@@ -111,15 +110,13 @@ li a {
 
 .horario thead th {
   background-color: #202020;
-  color: #efe393; 
+  color: var(--color-principal); 
 }
 
 .horario tbody td {
   background-color: #454444;
   color: #d9d7d7;
 }
-
-
 
 .redes-sociales {
     display: flex;
@@ -134,4 +131,31 @@ li a {
     font-size: 15px;
     margin-bottom: 30px;
     margin-top: 50px;   
+}
+
+@media (max-width: 768px) {
+
+  .footer-navegador {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navegacion-enlaces-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+   }
+
+
+  .footer-informacion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .horario table {
+    width: 100%;
+  }
 }

@@ -14,7 +14,7 @@ export default function Pagina3() {
             <details>
             <summary>Menú 1</summary>
 
-            <ul class="menu-grupos">
+            <ul className="menu-grupos">
                 <li>
                     <ol>
                         <li>

@@ -13,7 +13,7 @@ export default function Especialidades() {
            src="../imagenes/especialidades/imagen-tarta-presentacion.JPG"
            title="Tarta de presentación"
            alt="Tarta de presentación"   
-        >
+        />
         <div>
            <h3>Fuego Patagónico</h3>
 
@@ -23,7 +23,7 @@ export default function Especialidades() {
                src="../imagenes/especialidades/imagen-fuego-patagonico.JPG"
                title="Fuego Patagónico"
                alt="Fuego Patagónico"
-           >
+           />
         </div>
 
         <div>
@@ -35,7 +35,7 @@ export default function Especialidades() {
                src="../imagenes/especialidades/imagen-nocturno-imperial.JPG"
                alt="Nocturno Imperial"
                title="Nocturno Imperial"
-           >   
+           />   
         </div>
 
         <div>
@@ -47,7 +47,7 @@ export default function Especialidades() {
                src="../imagenes/especialidades/imagen-milhojas-bruma.JPG"
                alt="Milhojas de Bruma"
                title="Milhojas de Bruma"
-           >
+           />
         </div>
 
         <div>
@@ -59,7 +59,7 @@ export default function Especialidades() {
                src="../imagenes/especialidades/imagen-sombra-cacao.JPG"
                alt="Sombra de cacao"
                title="Sombra de cacao"
-           >
+           />
         </div>
         
         <div>
@@ -71,7 +71,7 @@ export default function Especialidades() {
                src="../imagenes/especialidades/imagen-almendra-dorada.JPG"
                alt="Almendra Dorada"
                title="Almendra Dorada"
-           >
+           />
         </div>
 
         <div>
@@ -83,7 +83,7 @@ export default function Especialidades() {
                src="../imagenes/especialidades/imagen-suspiro-vainilla.JPG"
                alt="Suspiro de Vainilla"
                title="Suspiro de Vainilla"
-           >
+           />
         </div>
 
 
@@ -96,7 +96,7 @@ export default function Especialidades() {
                src="../imagenes/especialidades/imagen-rubi-escondido.JPG"
                alt="Rubí Escondido"
                title="Rubí Escondido"
-           >
+           />
         </div>
 
         <div>
@@ -108,7 +108,7 @@ export default function Especialidades() {
                src="../imagenes/especialidades/imagen-sol-medianoche.JPG"
                alt="Sol de Medianoche"
                title="Sol de Medianoche"
-           >
+           />
         </div>
     </main>
 

@@ -13,36 +13,34 @@ header img {
  
 }
 
-header img:hover {
-  transition: transform 0.3s;
-}
-
 nav {
   display: flex;
   gap: 20px;
 }
 
-nav a {
+.enlaces-header {
   text-decoration: none;
   color: #4b4b4b;
   font-weight: 500;
   padding: 10px 15px;
   border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: transform 0.3s;
 }
 
-nav a:hover {
+.enlaces-header:hover {
   background-color: var(--color-principal); 
   color: white;
 }
 
 @media (max-width: 768px) {
   header {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 
   nav {
+    display: flex;
     flex-direction: column;
     width: 100%;
     margin-top: 15px;

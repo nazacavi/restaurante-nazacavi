@@ -34,7 +34,8 @@ export default function App() {
                   Te esperamos para brindarte una experiencia inolvidable.
               </p>
 
-              <div> 
+              <div className='carrusel'> 
+                <div className='cinta'>
                   <img
                       src="./imagenes/restaurante/imagen-pate.JPG"
                       title="imagen de paté "
@@ -70,6 +71,43 @@ export default function App() {
                       alt="imagen de tortitas"
                       title="imagen de tortitas"
                   />
+
+                  <img
+                      src="./imagenes/restaurante/imagen-pate.JPG"
+                      title="imagen de paté "
+                      alt="imagen de paté"
+                  />
+                  
+                  <img
+                      src="./imagenes/restaurante/imagen-torrija.JPG"
+                      alt="imagen de torrija"
+                      title="imagen de torrija"
+                  />   
+
+                  <img
+                      src="./imagenes/restaurante/imagen-coctel.JPG"
+                      alt="imagen de coctel"
+                      title="imagen de coctel"
+                  />
+                  
+                  <img
+                      src="./imagenes/restaurante/imagen-carne.JPG"
+                      alt="imagen de carne"
+                      title="imagen de carne"
+                  />
+
+                  <img
+                      src="./imagenes/restaurante/imagen-ensaladilla.JPG"
+                      alt="imagen de ensaladilla"
+                      title="imagen de endaladilla"
+                  />
+
+                  <img
+                      src="./imagenes/restaurante/imagen-tortitas.JPG"
+                      alt="imagen de tortitas"
+                      title="imagen de tortitas"
+                  />    
+                </div>
               </div>
           </section>
 

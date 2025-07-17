@@ -1,3 +1,7 @@
+:root {
+  --altura-header: 120px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -8,9 +12,8 @@ header {
 }
 
 header img {
-  height: 80px;
+  height: var(--altura-header);
   width: auto;
- 
 }
 
 header nav {

@@ -5,68 +5,60 @@ export default function Footer () {
     return (
         <>
             <footer>  
+                <div className="menu">
+                    <img
+                        className="imagen-logo"
+                        src="./imagenes/imagotipo.png"
+                        height="70"
+                        width="150"
+                        title="logo"
+                        alt="logo"
+                    />
 
-                 <div className='footer-navegador'>
-
-                        <img
-                            className="imagen-logo"
-                            src="./imagenes/imagotipo.png"
-                            height="150"
-                            width="150"
-                            title="logo"
-                            alt="logo"
-                        />
-
-                        <nav className='navegacion-enlaces-footer'>
-                        <a className='enlaces-footer' href='#inicio'>inicio</a>
-                        <a className='enlaces-footer' href=''>menu</a>
-                        <a className='enlaces-footer' href=''>especialidades</a>
-                        <a className='enlaces-footer' href=''>carta</a>
-                        <a className='enlaces-footer' href=''>reservas</a> 
-                        </nav>      
+                    <nav className="secciones">
+                        <a className="enlace" href="/">inicio</a>
+                        <a className="enlace" href="/carta">carta</a>
+                        <a className="enlace" href="/especialidades">especialidades</a>
+                        <a className="enlace" href="/menu-de-grupo">menú de grupo</a>
+                        <a className="enlace" href="/reservas">reservas</a>
+                    </nav>      
                 </div>
 
-                <div>
-                    <hr></hr>
-                </div>
+                <hr />
 
-                <div className='footer-informacion'> 
-                    <div className='informacion-legal'>               
-                        <div className="informacion-contacto">
+                <div className="informacion"> 
+                    <div className="contenedor">               
+                        <div className="contacto">
                             <h3>Contacto</h3>
 
-                            <div id="direccion">
-                                <i className="fa-solid fa-location-dot"></i>
-
+                            <div className="direccion">
+                                <i className="fa-solid fa-location-dot fa-fw" />
                                 <address>Plaza del la Constitución 6, 00958, Madrid</address>
                             </div>
 
                             <div>
-                                <i className="fa-solid fa-mobile-screen-button"></i>
-
+                                <i className="fa-solid fa-mobile-screen-button fa-fw" />
                                 <a href="tel:672125807">Móvil: 52412587</a>
                             </div>
 
                             <div>
-                                <i className="fa-solid fa-envelope"></i>
-
+                                <i className="fa-solid fa-envelope fa-fw" />
                                 <a href="mailto:nacavi@hotmail.es">Email: nacavi@hotmail.es</a>
-
                             </div>
                         </div>
 
                         <div className="legal">
-                                <h3>Enlaces de interés</h3>
-                                <ul>
-                                    <li><a href="#">Aviso legal</a></li>
-                                    <li><a href="#">Política de privacidad</a></li>
-                                    <li><a href="#">Política de cookies</a></li>
-                                </ul>
+                            <h3>Enlaces de interés</h3>
+                            <ul>
+                                <li><a href="#">Aviso legal</a></li>
+                                <li><a href="#">Política de privacidad</a></li>
+                                <li><a href="#">Política de cookies</a></li>
+                            </ul>
                         </div>
                     </div> 
                
 
-                    <div className='horario'>
+                    <div className="horario">
                         <table>
                             <thead>
                                 <tr>
@@ -104,10 +96,10 @@ export default function Footer () {
                 </div>    
 
                 <div className="redes-sociales">
-                    <a href="#"><i id="facebook" className="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i id="instagram" className="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i id="linkedin" className="fa-brands fa-linkedin-in"></i></a> 
-                    <a href="#"><i className="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i id="facebook" className="fa-fw fa-brands fa-facebook" /></a>
+                    <a href="#"><i id="instagram" className="fa-fw fa-brands fa-instagram" /></a>
+                    <a href="#"><i id="linkedin" className="fa-fw fa-brands fa-linkedin-in" /></a> 
+                    <a href="#"><i className="fa-fw fa-brands fa-pinterest" /></a>
                 </div>
             </footer>  
         </>

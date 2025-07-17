@@ -13,12 +13,12 @@ header img {
  
 }
 
-nav {
+header nav {
   display: flex;
   gap: 20px;
 }
 
-.enlaces-header {
+header nav .enlace {
   text-decoration: none;
   color: #4b4b4b;
   font-weight: 500;
@@ -27,7 +27,7 @@ nav {
   transition: transform 0.3s;
 }
 
-.enlaces-header:hover {
+header nav .enlace:hover {
   background-color: var(--color-principal); 
   color: white;
 }
@@ -39,22 +39,19 @@ nav {
     align-items: flex-start;
   }
 
-  nav {
+  header img {
+    height: 70px;
+  }
+
+  header nav {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-top: 15px;
   }
 
-  nav a {
+  header nav .enlace {
     width: 100%;
     text-align: left;
   }
-
-  header img {
-    height: 70px;
-  }
 }
-
-
-

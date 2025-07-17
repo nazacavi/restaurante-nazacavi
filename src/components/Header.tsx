@@ -5,7 +5,7 @@ export default function Header() {
         <>
             <header>
               <img
-                  src="./imagenes/logo.jpg"
+                  src="/logo.jpg"
                   height="100px"
                   width="150px"
                   title="logo"

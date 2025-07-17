@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import './Reservas.css';
 
 export default function Pagina3() {
     return (
@@ -16,80 +17,76 @@ export default function Pagina3() {
         <h1>Haz tu reserva ahora</h1>
 
         <img
-            src="./../imagenes/reservas/Captura2.JPG"
+            src="././reservas/Captura2.JPG"
             alt="imagen de reserva"
             title="imagen de reserva"
         />
+        <div className='formulario'>
+            <form
+                method="post"
+                action="#"
+                id="datos"
+            >
+                <h2>Registro</h2>
 
-        <form
-            method="post"
-            action="#"
-            id="datos"
-        >
-            <label>
-                <span>*Nombre</span>
+                <label>
+                    <input
+                        type="text"
+                        name="nombre"
+                        placeholder='nombre'
+                        required
+                        autoFocus
+                    />
+                </label>
 
-                <input
-                    type="text"
-                    required
-                    name="nombre"
-                    autoFocus
-                />
-            </label>
+                <label>
+                    <input
+                        type="tel"
+                        name="telefono"
+                        placeholder='teléfono'
+                        required
+                        autoFocus
+                    />
+                </label>
 
-            <label>
-                <span>*Teléfono</span>
+                <label>
+                    <input
+                        type="number"
+                        min="1"
+                        max="50"
+                        name="comensales"
+                        placeholder='número de comensales'
+                        autoFocus
+                        required
+                    />
+                </label>
 
-                <input
-                    type="tel"
-                    required
-                    name="telefono"
-                    autoFocus
-                />
-            </label>
+                <label>
+                    <input
+                        type="time"
+                        name="hora"
+                        autoFocus
+                        required
+                    />
+                </label>
 
-            <label>
-                <span>*Número de comensales</span>
-
-                <input
-                    type="number"
-                    required
-                    min="1"
-                    max="50"
-                    name="comensales"
-                    autoFocus
-                />
-            </label>
-
-            <label>
-                <span>*Hora</span>
-
-                <input
-                    type="time"
-                    required
-                    name="hora"
-                    autoFocus
-                />
-            </label>
-
-            <label>
-                <span>*Calendario</span>
-
-                <input
-                    type="date"
-                    required
-                    name="calendario"
-                    autoFocus
-                />
-            </label>
-        </form>
-
-        <button
-            type="button"
-            form="datos"
-        >
-            Reservar
-        </button>
+                <label>
+                    <input
+                        type="date"
+                        name="calendario"
+                        autoFocus
+                        required
+                    />
+                </label>
+            </form>
+            
+            <button
+                type="button"
+                form="datos"
+            >
+                Reservar
+            </button>
+        </div>
     </main>
     
              <Footer/>

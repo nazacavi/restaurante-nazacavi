@@ -13,7 +13,7 @@ export default function App() {
               <h1 id='inicio'> bienvenido</h1>
 
               <img
-                  src="./imagenes/restaurante/imagen-portada.JPG"
+                  src="/restaurante/imagen-portada.JPG"
                   alt="foto-restaurante"
                   title="foto-restaurante"
               />
@@ -37,73 +37,73 @@ export default function App() {
               <div className='carrusel'> 
                 <div className='cinta'>
                   <img
-                      src="./imagenes/restaurante/imagen-pate.JPG"
+                      src="/restaurante/imagen-pate.JPG"
                       title="imagen de paté "
                       alt="imagen de paté"
                   />
                   
                   <img
-                      src="./imagenes/restaurante/imagen-torrija.JPG"
+                      src="/restaurante/imagen-torrija.JPG"
                       alt="imagen de torrija"
                       title="imagen de torrija"
                   />   
 
                   <img
-                      src="./imagenes/restaurante/imagen-coctel.JPG"
+                      src="/restaurante/imagen-coctel.JPG"
                       alt="imagen de coctel"
                       title="imagen de coctel"
                   />
                   
                   <img
-                      src="./imagenes/restaurante/imagen-carne.JPG"
+                      src="/restaurante/imagen-carne.JPG"
                       alt="imagen de carne"
                       title="imagen de carne"
                   />
 
                   <img
-                      src="./imagenes/restaurante/imagen-ensaladilla.JPG"
+                      src="/restaurante/imagen-ensaladilla.JPG"
                       alt="imagen de ensaladilla"
                       title="imagen de endaladilla"
                   />
 
                   <img
-                      src="./imagenes/restaurante/imagen-tortitas.JPG"
+                      src="/restaurante/imagen-tortitas.JPG"
                       alt="imagen de tortitas"
                       title="imagen de tortitas"
                   />
 
                   <img
-                      src="./imagenes/restaurante/imagen-pate.JPG"
+                      src="/restaurante/imagen-pate.JPG"
                       title="imagen de paté "
                       alt="imagen de paté"
                   />
                   
                   <img
-                      src="./imagenes/restaurante/imagen-torrija.JPG"
+                      src="/restaurante/imagen-torrija.JPG"
                       alt="imagen de torrija"
                       title="imagen de torrija"
                   />   
 
                   <img
-                      src="./imagenes/restaurante/imagen-coctel.JPG"
+                      src="/restaurante/imagen-coctel.JPG"
                       alt="imagen de coctel"
                       title="imagen de coctel"
                   />
                   
                   <img
-                      src="./imagenes/restaurante/imagen-carne.JPG"
+                      src="/restaurante/imagen-carne.JPG"
                       alt="imagen de carne"
                       title="imagen de carne"
                   />
 
                   <img
-                      src="./imagenes/restaurante/imagen-ensaladilla.JPG"
+                      src="/restaurante/imagen-ensaladilla.JPG"
                       alt="imagen de ensaladilla"
                       title="imagen de endaladilla"
                   />
 
                   <img
-                      src="./imagenes/restaurante/imagen-tortitas.JPG"
+                      src="/restaurante/imagen-tortitas.JPG"
                       alt="imagen de tortitas"
                       title="imagen de tortitas"
                   />    
@@ -119,7 +119,7 @@ export default function App() {
               <div>
                   <div>
                       <img
-                          src="./imagenes/restaurante/evento-imagen.JPG"
+                          src="/restaurante/evento-imagen.JPG"
                           alt="imagen-evento"
                           title="imagen-evento"
                       />
@@ -131,7 +131,7 @@ export default function App() {
               <div>
                   <figure>
                       <img
-                          src="./imagenes/restaurante/coche-domicilio.JPG"
+                          src="/restaurante/coche-domicilio.JPG"
                           alt="imagen-coche"
                           title="imagen-coche"
                       />
@@ -156,7 +156,7 @@ export default function App() {
               </p>
 
               <img
-                  src="./imagenes/restaurante/imagen-chef.JPG"
+                  src="/restaurante/imagen-chef.JPG"
                   title="imagen del Chef"
                   alt="imagen del Chef"
               />

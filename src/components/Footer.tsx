@@ -8,9 +8,9 @@ export default function Footer () {
                 <div className="menu">
                     <img
                         className="imagen-logo"
-                        src="./imagenes/imagotipo.png"
+                        src="/imagotipo.png"
                         height="70"
-                        width="150"
+                        width="70"
                         title="logo"
                         alt="logo"
                     />

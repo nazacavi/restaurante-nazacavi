@@ -6,7 +6,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #f2eeee;
   padding: 15px 30px;
   border-bottom: 1px solid #ddd;
 }
@@ -14,6 +14,7 @@ header {
 header img {
   height: var(--altura-header);
   width: auto;
+  border-radius: 20px;
 }
 
 header nav {

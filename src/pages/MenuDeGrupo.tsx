@@ -1,66 +1,61 @@
-
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import './MenuDeGrupo.css';
 
-export default function Pagina3() {
+export default function MenuDeGrupo() {
     return (
         <>
             <Header />
-            <p>Estamos en la página 3</p>
-            <br></br>
-            <a href="/">inicio</a>
-            <br></br>
-            <a href="/pagina2">pagina 2</a>
-            <details>
-            <summary>Menú 1</summary>
+        
+            <main className="menus-de-grupo">
+                <details className="menu">
+                    <summary>Menú 1</summary>
 
-            <ul className="menu-grupos">
-                <li>
-                    <ol>
+                    <ol className="menu-grupos">
                         <li>
                             <span>Aperitivos de bienvenida</span>
-                        
+
                             <ul>
                                 <li>Copa de cava brut nature con una ostra francesa Gillardeau nº3 sobre lecho de hielo y un toque de limón.</li>
                             </ul>
                         </li>
-                    
+
                         <li>
                             <span>Entrantes para compartir</span>
-                        
+
                             <ul>
                                 <li>Láminas de foie gras micuit casero con reducción de Pedro Ximénez y toques de higo fresco y nueces caramelizadas.</li>
                                 <li>Tartar de atún rojo salvaje con aguacate, alcaparras y emulsión de cítricos.</li>
                             </ul>
                         </li>
-                    
+
                         <li>
                             <span>Primer plato</span>
-                        
+
                             <ul>
                                 <li>Risotto cremoso de boletus edulis con lascas de trufa negra y aceite de oliva virgen extra de variedad picual.</li>
                             </ul>
                         </li>
-                    
+
                         <li>
                             <span>Segundo plato</span>
-                        
+
                             <ul>
                                 <li>Solomillo de ternera retinta a la parrilla con salsa perigord (trufa negra) y milhojas de patata y foie gras.</li>
                             </ul>
                         </li>
-                    
+
                         <li>
                             <span>Pre-Postre:</span>
-                        
+
                             <ul>
                                 <li>Sorbete de limón y hierbabuena con un toque de vodka (opcional).</li>
                             </ul>
                         </li>
-                    
+
                         <li>
                             <span>Postre:</span>
-                        
+
                             <ul>
                                 <li>Coulant de chocolate negro con corazón de frambuesa y helado artesanal de vainilla de Madagascar.</li>
                             </ul>
@@ -68,7 +63,7 @@ export default function Pagina3() {
 
                         <li>
                             <span>Bodegas</span>
-                        
+
                             <ul>
                                 <li>Vino blanco D.O. Condado de Huelva</li>
                                 <li>Vino tinto D.O. Sierra de Cazorla.</li>
@@ -76,82 +71,76 @@ export default function Pagina3() {
                             </ul>
                         </li>           
                     </ol>
-                </li>
-            </ul>
-        </details>
+                </details>
 
-        
-            
-       <details>
-            <summary>Menú 2</summary> 
+                <details className="menu">
+                    <summary>Menú 2</summary> 
 
-            <ol>
-                <li>
-                    <span>Aperitivos de bienvenida</span>
+                    <ol>
+                    <li>
+                        <span>Aperitivos de bienvenida</span>
 
-                    <ul>
-                        <li>Copa de cava brut nature con una ostra francesa Gillardeau nº3 sobre lecho de hielo y un toque de limón.</li>
-                    </ul>
-                </li>
+                        <ul>
+                            <li>Copa de cava brut nature con una ostra francesa Gillardeau nº3 sobre lecho de hielo y un toque de limón.</li>
+                        </ul>
+                    </li>
 
-                <li>
-                    <span>Entrantes para compartir</span>
+                    <li>
+                        <span>Entrantes para compartir</span>
 
-                    <ul>
-                        <li>Croquetas cremosas de bogavante con velouté de marisco y crujiente de parmesano.</li>
-                        <li>Tartar de atún rojo salvaje con aguacate, alcaparras y emulsión de cítricos.</li>
-                    </ul>
-                </li>
+                        <ul>
+                            <li>Croquetas cremosas de bogavante con velouté de marisco y crujiente de parmesano.</li>
+                            <li>Tartar de atún rojo salvaje con aguacate, alcaparras y emulsión de cítricos.</li>
+                        </ul>
+                    </li>
 
-                <li>
-                    <span>Primer plato</span>
+                    <li>
+                        <span>Primer plato</span>
 
-                    <ul>
-                        <li>Lubina salvaje al horno con costra de almendras y salsa holandesa ligera con cítricos.</li>
-                    </ul>
-                </li>
+                        <ul>
+                            <li>Lubina salvaje al horno con costra de almendras y salsa holandesa ligera con cítricos.</li>
+                        </ul>
+                    </li>
 
-                <li>
-                    <span>Segundo plato</span>
+                    <li>
+                        <span>Segundo plato</span>
 
-                    <ul>
-                        <li>Merluza de pincho en papillote con espárragos trigueros, tomate cherry confitado y vinagreta de piñones y albahaca.</li>
-                    </ul>
-                </li>
+                        <ul>
+                            <li>Merluza de pincho en papillote con espárragos trigueros, tomate cherry confitado y vinagreta de piñones y albahaca.</li>
+                        </ul>
+                    </li>
 
-                <li>
-                    <span>Pre-Postre:</span>
+                    <li>
+                        <span>Pre-Postre:</span>
 
-                    <ul>
-                        <li>Sorbete de limón y hierbabuena con un toque de vodka (opcional).</li>
-                    </ul>
-                </li>
+                        <ul>
+                            <li>Sorbete de limón y hierbabuena con un toque de vodka (opcional).</li>
+                        </ul>
+                    </li>
 
-                <li>
-                    <span>Postre:</span>
+                    <li>
+                        <span>Postre:</span>
 
-                    <ul>
-                        <li>Tarta fina de manzana caramelizada con crema inglesa y crumble de almendras.</li>
-                    </ul>
-                </li>
-                    
-                <li>
-                    <span>Bodegas</span>
+                        <ul>
+                            <li>Tarta fina de manzana caramelizada con crema inglesa y crumble de almendras.</li>
+                        </ul>
+                    </li>
 
-                    <ul>
-                        <li>Vino blanco D.O. Condado de Huelva</li>
-                        <li>Vino tinto D.O. Sierra de Cazorla.</li>
-                        <li>Agua mineral con y sin gas.</li>
-                    </ul>
-                </li>           
-            </ol>
-        </details>
+                    <li>
+                        <span>Bodegas</span>
 
-        <details>
-            <summary>Menú 3</summary>
-          
-           <ul>      
-                <li>    
+                        <ul>
+                            <li>Vino blanco D.O. Condado de Huelva</li>
+                            <li>Vino tinto D.O. Sierra de Cazorla.</li>
+                            <li>Agua mineral con y sin gas.</li>
+                        </ul>
+                    </li>           
+                    </ol>
+                </details>
+
+                <details className="menu">
+                    <summary>Menú 3</summary>
+
                     <ol>
                         <li>
                             <span>Aperitivos de bienvenida</span>
@@ -212,11 +201,10 @@ export default function Pagina3() {
                             </ul>
                         </li>           
                     </ol>
-                </li>
-            </ul>
-        </details>
+                </details>
+            </main>
     
-             <Footer/>
+            <Footer/>
         </>
     );
 }

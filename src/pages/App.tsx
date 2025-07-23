@@ -1,6 +1,7 @@
 import './App.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Hero from '../components/Hero';
 
 export default function App() {
 
@@ -9,32 +10,28 @@ export default function App() {
       <Header />
 
       <main>
-          <section>
-              <h1 id='inicio'> bienvenido</h1>
+        <Hero
+            titulo="Bienvenido"
+            subtitulo="Les recibimos con la mesa puesta y el corazón abierto. Aquí, cada detalle está pensado para que disfruten de una experiencia culinaria única. Nuestra carta, elaborada con pasión y los mejores ingredientes, invita a explorar sabores que deleitan y sorprenden. El ambiente, cálido y acogedor, es el escenario perfecto para compartir momentos inolvidables. Les invitamos a relajarse, saborear y dejarse consentir por nuestro equipo, que se esmera en hacer de su visita una ocasión especial. Que disfruten cada instante."
+            imagen="/restaurante/imagen-portada.JPG"
+        />
 
-              <img
-                  src="/restaurante/imagen-portada.JPG"
-                  alt="foto-restaurante"
-                  title="foto-restaurante"
-              />
+        <section>
+            <div className="especialidades-informacion">
+                <h2>Especialidades</h2>
 
-             <p>Les recibimos con la mesa puesta y el corazón abierto. Aquí, cada detalle está pensado para que disfruten de una experiencia culinaria única. Nuestra carta, elaborada con pasión y los mejores ingredientes, invita a explorar sabores que deleitan y sorprenden. El ambiente, cálido y acogedor, es el escenario perfecto para compartir momentos inolvidables. Les invitamos a relajarse, saborear y dejarse consentir por nuestro equipo, que se esmera en hacer de su visita una ocasión especial. Que disfruten cada instante.</p>
-          </section>
+                <p> 
+                    En nuestro restaurante, las especialidades en carnes son el alma del menú, preparadas con pasión y sabor auténtico.
+                    Disfruta de una carta de cócteles creativos, perfectos para cada ocasión.
+                    Y no te vayas sin probar nuestros postres artesanales, el dulce final que merece tu paladar.
+                    Cada plato es elaborado con ingredientes de la más alta calidad.
+                    Nos enorgullece haber sido reconocidos con premios por nuestra excelencia en el servicio y sabor.
+                    Ven y descubre por qué somos el destino favorito de los amantes de la buena comida.
+                    Te esperamos para brindarte una experiencia inolvidable.
+                </p>
+            </div>
 
-          <section>
-              <h2>Especialidades</h2>
-
-              <p> 
-                  En nuestro restaurante, las especialidades en carnes son el alma del menú, preparadas con pasión y sabor auténtico.
-                  Disfruta de una carta de cócteles creativos, perfectos para cada ocasión.
-                  Y no te vayas sin probar nuestros postres artesanales, el dulce final que merece tu paladar.
-                  Cada plato es elaborado con ingredientes de la más alta calidad.
-                  Nos enorgullece haber sido reconocidos con premios por nuestra excelencia en el servicio y sabor.
-                  Ven y descubre por qué somos el destino favorito de los amantes de la buena comida.
-                  Te esperamos para brindarte una experiencia inolvidable.
-              </p>
-
-              <div className='carrusel'> 
+            <div className='carrusel'> 
                 <div className='cinta'>
                   <img
                       src="/restaurante/imagen-pate.JPG"
@@ -108,59 +105,57 @@ export default function App() {
                       title="imagen de tortitas"
                   />    
                 </div>
-              </div>
-          </section>
+            </div>
+        </section>
 
-          <section>
-              <h2>Servicios</h2>
+        <section className='actividades'> 
+            <div className='eventos-comidas'>
+                <img
+                    src="/restaurante/evento-imagen.JPG"
+                    alt="imagen-evento"
+                    title="imagen-evento"
+                />
 
-              <p>En nuestro espacio, la pasión por la gastronomía se extiende más allá de la mesa. Nos dedicamos a crear experiencias memorables, desde la cuidadosa selección de ingredientes frescos y de temporada, hasta la atención personalizada que nos distingue. Celebramos la vida contigo, ofreciendo servicios de celebraciones a medida, donde cada detalle se adapta a tus sueños, transformando tus eventos en momentos únicos e inolvidables. Además, entendemos la importancia de la comodidad y la flexibilidad, por eso, nuestro servicio de comida para llevar te permite disfrutar de nuestros sabores en la intimidad de tu hogar o donde prefieras, manteniendo la calidad y el sabor que nos caracteriza.</p>
+                <div className='texto-eventos-comidas'>
+                    <h2>Sabores que viajan contigo</h2>
+                    <p>Delicias listas para llevar o para compartir en tu evento especial.</p>
+                </div>
 
-              <div>
-                  <div>
-                      <img
-                          src="/restaurante/evento-imagen.JPG"
-                          alt="imagen-evento"
-                          title="imagen-evento"
-                      />
+                <img
+                    src="/restaurante/coche-domicilio.JPG"
+                    alt="imagen-coche"
+                    title="imagen-coche"
+                />             
+            </div>            
+        </section>
 
-                      <span>Eventos</span>
-                  </div>
-              </div>
-
-              <div>
-                  <figure>
-                      <img
-                          src="/restaurante/coche-domicilio.JPG"
-                          alt="imagen-coche"
-                          title="imagen-coche"
-                      />
-                      
-                      <figcaption>Comida para llevar</figcaption>
-                  </figure>
-              </div>
-          </section>
-
-          <section>
+        <section className="seccion-chef">
               <h2>Nuestro Chef</h2>
 
-              <p>
-                  En el corazón de nuestra cocina se encuentra el alma de nuestro restaurante: el chef.
-                  Reconocido como uno de los mejores en su arte, su talento ha sido galardonado con premios internacionales.
-                  Cada platillo que crea es una obra maestra, combinando técnica, creatividad y pasión.
-                  Su experiencia en cocinas de renombre mundial se refleja en cada detalle del menú.
-                  Bajo su dirección, hemos elevado la gastronomía a otro nivel.
-                  No solo cocina, crea experiencias que conquistan todos los sentidos.
-                  Gracias a su visión, nuestro restaurante se ha posicionado entre los mejores.
-                  Ven a probar el sabor de una cocina con sello de excelencia mundial.       
-              </p>
+              <div className="contenedor-chef">
+                <p>
+                    En el corazón de nuestra cocina se encuentra el alma de nuestro restaurante: el chef.
+                    Reconocido como uno de los mejores en su arte, su talento ha sido galardonado con premios internacionales.
+                    Cada platillo que crea es una obra maestra, combinando técnica, creatividad y pasión.
+                    Su experiencia en cocinas de renombre mundial se refleja en cada detalle del menú.
+                    Bajo su dirección, hemos elevado la gastronomía a otro nivel.
+                    No solo cocina, crea experiencias que conquistan todos los sentidos.
+                    Gracias a su visión, nuestro restaurante se ha posicionado entre los mejores.
+                    Ven a probar el sabor de una cocina con sello de excelencia mundial.
+                    Nuestro chef no se detiene. Cada temporada, renueva la carta con propuestas audaces que sorprenden y deleitan. 
+                    Su búsqueda incesante de nuevos ingredientes y técnicas culinarias mantiene nuestra oferta fresca, contemporánea y en sintonía con las tendencias globales.       
+                    Además de liderar la cocina, dedica tiempo a formar a nuevos talentos. 
+                    Fiel defensor de una cocina responsable, el chef prioriza productos locales, de temporada y sostenibles. Su compromiso con el medio ambiente se refleja en un menú que respeta la tierra, el mar y a quienes los cultivan y cuidan.
+                    Su cocina es también una escuela, donde jóvenes cocineros aprenden no solo recetas, sino valores como el respeto, la disciplina y el amor por el detalle.
+                </p>
 
-              <img
-                  src="/restaurante/imagen-chef.JPG"
-                  title="imagen del Chef"
-                  alt="imagen del Chef"
-              />
-          </section>
+                <img
+                    src="/restaurante/imagen-chef.JPG"
+                    title="imagen del Chef"
+                    alt="imagen del Chef"
+                />
+                </div>
+        </section>
       </main>
 
       <Footer/>          

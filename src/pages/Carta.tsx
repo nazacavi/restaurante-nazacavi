@@ -1,18 +1,13 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import './Carta.css';
 
 export default function Carta() {
     return (
         <>
             <Header />
-                <p>Estamos en la página 2</p>
-                <br></br>
-                <a href="/">inicio</a>
-                <br></br>
-                <a href="/pagina3">pagina 3</a>
-
             
-            <main>
+            <main className="carta">
                 <h1>Carta</h1>
 
                 <p>Un viaje culinario a través de la esencia de nuestra tierra.</p>
@@ -152,16 +147,16 @@ export default function Carta() {
 
                 <small>
                     Información Adicional:
-                    <br>Pedido Mínimo: 50€</br>
-                    <br>Horario de Pedidos: 12:00-16:00 y 19:00-22:00.</br>
-                    <br>Recogida en Restaurante/Entrega a Domicilio: Consultar.</br>
-                    <br>Contacto para Pedidos: [Número de teléfono del restaurante] / [Dirección de correo electrónico del restaurante].</br>
-                    <br>Alérgenos: Indicar al realizar el pedido.</br>
-                    <br>¡Esperamos que disfrute de esta selección gourmet en casa!</br>
+                    <br />Pedido Mínimo: 50€
+                    <br />Horario de Pedidos: 12:00-16:00 y 19:00-22:00.
+                    <br />Recogida en Restaurante/Entrega a Domicilio: Consultar.
+                    <br />Contacto para Pedidos: [Número de teléfono del restaurante] / [Dirección de correo electrónico del restaurante].
+                    <br />Alérgenos: Indicar al realizar el pedido.
+                    <br />¡Esperamos que disfrute de esta selección gourmet en casa!
                 </small>
             </main>
             <Footer/>          
-                </>
-            );
-        };
+        </>
+    );
+};
             

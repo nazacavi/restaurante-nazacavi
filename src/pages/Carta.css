@@ -1,0 +1,7 @@
+.carta {
+    padding: 32px 64px;
+}
+
+.carta section {
+    border: 1px solid red;
+}

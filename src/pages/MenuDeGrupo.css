@@ -1,0 +1,24 @@
+.menus-de-grupo {
+    padding: 32px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.menus-de-grupo .menu {
+    flex: 1;
+    padding: 16px;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 16px 8px #0001;
+}
+
+.menus-de-grupo .menu ol {
+    padding: 16px;
+}
+
+.menus-de-grupo .menu ol ul {
+    padding: 4px 16px;
+}

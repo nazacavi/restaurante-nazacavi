@@ -1,0 +1,39 @@
+main .contenedor-principal-especialidades {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    gap: 60px;
+}
+
+main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades {
+  display: flex;
+  
+}
+main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades .contenedor-texto-especialidades {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades  img {
+   width: 50%;
+   height: auto;
+   border-radius: 8px;
+}
+
+main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades .contenedor-texto-especialidades  h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades .contenedor-texto-especialidades p {
+  display: flex;
+  align-items: center;
+  line-height: 1.8;
+  text-indent: 1em; 
+  width:80% ;
+  text-align: justify; 
+}

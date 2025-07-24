@@ -7,7 +7,7 @@ main .contenedor-principal-especialidades {
 
 main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades {
   display: flex;
-  
+  gap: 30px;
 }
 main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades .contenedor-texto-especialidades {
   display: flex;
@@ -15,11 +15,12 @@ main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidade
   gap: 30px;
   align-items: center;
   justify-content: center;
+  width: 50%;
 }
 
 main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades  img {
    width: 50%;
-   height: auto;
+   height: 30%;
    border-radius: 8px;
 }
 

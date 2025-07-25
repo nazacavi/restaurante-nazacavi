@@ -143,10 +143,6 @@ export default function App() {
                     Gracias a su visión, nuestro restaurante se ha posicionado entre los mejores.
                     Ven a probar el sabor de una cocina con sello de excelencia mundial.
                     Nuestro chef no se detiene. Cada temporada, renueva la carta con propuestas audaces que sorprenden y deleitan. 
-                    Su búsqueda incesante de nuevos ingredientes y técnicas culinarias mantiene nuestra oferta fresca, contemporánea y en sintonía con las tendencias globales.       
-                    Además de liderar la cocina, dedica tiempo a formar a nuevos talentos. 
-                    Fiel defensor de una cocina responsable, el chef prioriza productos locales, de temporada y sostenibles. Su compromiso con el medio ambiente se refleja en un menú que respeta la tierra, el mar y a quienes los cultivan y cuidan.
-                    Su cocina es también una escuela, donde jóvenes cocineros aprenden no solo recetas, sino valores como el respeto, la disciplina y el amor por el detalle.
                 </p>
 
                 <img

@@ -15,7 +15,7 @@ export default function Reservas() {
             <Hero
                 titulo="Haz tu reserva ahora"
                 subtitulo=""
-                imagen="././reservas/Captura2.JPG"
+                imagen="reservas/Captura2.JPG"
             />   
 
             <main>

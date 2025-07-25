@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import './Carta.css';
+import Hero from '../components/Hero';
 
 export default function Carta() {
     return (
@@ -8,6 +9,13 @@ export default function Carta() {
             <Header />
             
             <main className="carta">
+
+                <Hero
+                     titulo="Carta"
+                     subtitulo=""
+                     imagen="carta/imagen-carta.JPG"
+                />
+                              
                 <h1>Carta</h1>
 
                 <p>Un viaje culinario a través de la esencia de nuestra tierra.</p>

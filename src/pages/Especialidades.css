@@ -38,3 +38,11 @@ main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidade
   width:80% ;
   text-align: justify; 
 }
+
+@media (max-width: 768px) {
+  main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

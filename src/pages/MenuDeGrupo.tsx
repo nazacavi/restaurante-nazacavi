@@ -1,11 +1,18 @@
+import './MenuDeGrupo.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import './MenuDeGrupo.css';
+import Hero from '../components/Hero';
 
 export default function MenuDeGrupo() {
     return (
         <>
             <Header />
+
+            <Hero
+                  titulo="Menús de grupo"
+                  subtitulo=""
+                  imagen="/menus-grupo/imagen-menus-grupo.JPG"
+            />
         
             <main className="menus-de-grupo">
                 <details className="menu">

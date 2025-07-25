@@ -13,10 +13,8 @@ export default function Especialidades() {
                 <Hero
                     titulo="Especialidades"
                     subtitulo=""
-                    imagen="./especialidades/imagen-tarta-presentacion.JPG"
+                    imagen="especialidades/imagen-tarta-presentacion.JPG"
                 />
-              
-                
 
                 <div className="contenedor-principal-especialidades">
                     <div className="contenedor-imagen-texto-especialidades">

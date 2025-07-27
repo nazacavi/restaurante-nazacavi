@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 
+
 export default function MenuDeGrupo() {
     return (
         <>
@@ -11,7 +12,7 @@ export default function MenuDeGrupo() {
             <Hero
                   titulo="Menús de grupo"
                   subtitulo=""
-                  imagen="/menus-grupo/imagen-menus-grupo.JPG"
+                  imagen="/menus-grupo/imagen-hero-menus.jpg"
             />
         
             <main className="menus-de-grupo">
@@ -24,15 +25,6 @@ export default function MenuDeGrupo() {
 
                             <ul>
                                 <li>Copa de cava brut nature con una ostra francesa Gillardeau nº3 sobre lecho de hielo y un toque de limón.</li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <span>Entrantes para compartir</span>
-
-                            <ul>
-                                <li>Láminas de foie gras micuit casero con reducción de Pedro Ximénez y toques de higo fresco y nueces caramelizadas.</li>
-                                <li>Tartar de atún rojo salvaje con aguacate, alcaparras y emulsión de cítricos.</li>
                             </ul>
                         </li>
 
@@ -73,8 +65,6 @@ export default function MenuDeGrupo() {
 
                             <ul>
                                 <li>Vino blanco D.O. Condado de Huelva</li>
-                                <li>Vino tinto D.O. Sierra de Cazorla.</li>
-                                <li>Agua mineral con y sin gas.</li>
                             </ul>
                         </li>           
                     </ol>
@@ -89,15 +79,6 @@ export default function MenuDeGrupo() {
 
                         <ul>
                             <li>Copa de cava brut nature con una ostra francesa Gillardeau nº3 sobre lecho de hielo y un toque de limón.</li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <span>Entrantes para compartir</span>
-
-                        <ul>
-                            <li>Croquetas cremosas de bogavante con velouté de marisco y crujiente de parmesano.</li>
-                            <li>Tartar de atún rojo salvaje con aguacate, alcaparras y emulsión de cítricos.</li>
                         </ul>
                     </li>
 
@@ -138,8 +119,6 @@ export default function MenuDeGrupo() {
 
                         <ul>
                             <li>Vino blanco D.O. Condado de Huelva</li>
-                            <li>Vino tinto D.O. Sierra de Cazorla.</li>
-                            <li>Agua mineral con y sin gas.</li>
                         </ul>
                     </li>           
                     </ol>
@@ -154,15 +133,6 @@ export default function MenuDeGrupo() {
 
                             <ul>
                                 <li>Copa de cava brut nature con una ostra francesa Gillardeau nº3 sobre lecho de hielo y un toque de limón.</li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <span>Entrantes para compartir</span>
-
-                            <ul>
-                                <li>Vieira a la plancha sobre crema de coliflor trufada y aceite de vainilla.</li>
-                                <li>Tartar de atún rojo salvaje con aguacate, alcaparras y emulsión de cítricos.</li>
                             </ul>
                         </li>
 
@@ -203,8 +173,6 @@ export default function MenuDeGrupo() {
 
                             <ul>
                                 <li>Vino blanco D.O. Condado de Huelva</li>
-                                <li>Vino tinto D.O. Sierra de Cazorla.</li>
-                                <li>Agua mineral con y sin gas.</li>
                             </ul>
                         </li>           
                     </ol>

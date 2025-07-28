@@ -1,13 +1,14 @@
 
-section table {
+ main section table {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 
-section table caption {
+main section table caption {
     margin-top: 100px;
+    margin-bottom: 50px;
     font-family: 'Winsterday', cursive;
     font-size: 2rem;
     border:2px solid var(--color-principal);
@@ -16,8 +17,27 @@ section table caption {
     margin-right: auto;
 }
 
-section table .nombre-plato {
+
+main section table tbody .nombre-plato {
     font-family: 'Winsterday', cursive;
     font-size: 20px;
 }
+
+main section table tr .descripcion-plato {         
+  padding: 10px; 
+}
+
+div .vino-coctel {
+    font-family: 'Winsterday', cursive;
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+ }
+
+ main section h2 {
+    text-align: center;
+    color: rgb(71, 71, 43);
+ }
+
 

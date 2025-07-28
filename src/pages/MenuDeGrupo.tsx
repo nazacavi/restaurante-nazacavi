@@ -17,7 +17,7 @@ export default function MenuDeGrupo() {
         
             <main className="menus-de-grupo">
                 <details className="menu">
-                    <summary>Menú 1</summary>
+                     <summary><i className="fa-solid fa-bars"></i>Menú 1</summary>
 
                     <ol className="menu-grupos">
                         <li>
@@ -71,7 +71,7 @@ export default function MenuDeGrupo() {
                 </details>
 
                 <details className="menu">
-                    <summary>Menú 2</summary> 
+                      <summary><i className="fa-solid fa-bars"></i>Menú 2</summary>
 
                     <ol>
                     <li>
@@ -125,7 +125,7 @@ export default function MenuDeGrupo() {
                 </details>
 
                 <details className="menu">
-                    <summary>Menú 3</summary>
+                    <summary><i className="fa-solid fa-bars"></i>Menú 3</summary>
 
                     <ol>
                         <li>

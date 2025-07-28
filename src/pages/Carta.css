@@ -1,0 +1,23 @@
+
+section table {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section table caption {
+    margin-top: 100px;
+    font-family: 'Winsterday', cursive;
+    font-size: 2rem;
+    border:2px solid var(--color-principal);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section table .nombre-plato {
+    font-family: 'Winsterday', cursive;
+    font-size: 20px;
+}
+

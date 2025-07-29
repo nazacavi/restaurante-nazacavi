@@ -106,11 +106,11 @@ export default function Carta() {
                   <table>
                     <tbody>
                       <tr>
-                        <td>Entrantes</td>
+                        <td className="entrantes" colSpan={2}>Entrantes</td>
                       </tr>
 
                       <tr>
-                      <td>Ensalada de Bogavante.</td>
+                      <td className='plato'>Ensalada de Bogavante.</td>
                       <td>35€</td>
                       </tr>
 
@@ -118,9 +118,9 @@ export default function Carta() {
                         <td>Milhojas de Foie Gras.</td>
                         <td>28€</td>
                       </tr>
-                      
+
                       <tr>
-                        <td>Plato Principal</td>
+                        <td className="plato-principal"colSpan={2}>Plato Principal</td>
                       </tr>
 
                       <tr>
@@ -132,36 +132,24 @@ export default function Carta() {
                         <td>Solomillo de Ternera a la Parrilla.</td>
                         <td >50€</td>
                       </tr>
-                    </tbody>
-                    
-
-              
-
-                      
-
-                     
-                      
-                      
-                      <tr className='titulo-seccion'>Postre</tr>
+                
+                      <tr >
+                        <td className="postres"colSpan={2}>Postres</td>
+                      </tr>
 
                       <tr>
                         <td>Tarta de Chocolate con Crumble de Avellanas</td>
-                        <td className='precio-plato'>16€</td>
+                        <td >16€</td>
                       </tr>
-
-                     
 
                       <tr>
                         <td>Panna Cotta de Vainilla con Frutos Rojos</td>
-                        <td className='precio-plato'>14€</td>
+                        <td >14€</td>
                       </tr>
-
-                      
-                   
+                   </tbody>        
                   </table>
               </section>
             </main>
-
             <Footer/>          
         </>
     );

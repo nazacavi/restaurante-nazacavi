@@ -8,7 +8,7 @@ export default function Footer () {
                 <div className="menu">
                     <img
                         className="imagen-logo"
-                        src="/imagotipo.png"
+                        src="imagotipo.png"
                         height="70"
                         width="70"
                         title="logo"
@@ -16,11 +16,11 @@ export default function Footer () {
                     />
 
                     <nav className="secciones">
-                        <a className="enlace" href="/">inicio</a>
-                        <a className="enlace" href="/carta">carta</a>
-                        <a className="enlace" href="/especialidades">especialidades</a>
-                        <a className="enlace" href="/menu-de-grupo">menú de grupo</a>
-                        <a className="enlace" href="/reservas">reservas</a>
+                        <a className="enlace" href="/restaurante-nazacavi/">inicio</a>
+                        <a className="enlace" href="/restaurante-nazacavi/carta">carta</a>
+                        <a className="enlace" href="/restaurante-nazacavi/especialidades">especialidades</a>
+                        <a className="enlace" href="/restaurante-nazacavi/menu-de-grupo">menú de grupo</a>
+                        <a className="enlace" href="/restaurante-nazacavi/reservas">reservas</a>
                     </nav>      
                 </div>
 

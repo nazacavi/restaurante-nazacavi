@@ -13,7 +13,7 @@ export default function App() {
         <Hero
             titulo="Bienvenido"
             subtitulo="Les recibimos con la mesa puesta y el corazón abierto. Aquí, cada detalle está pensado para que disfruten de una experiencia culinaria única. Nuestra carta, elaborada con pasión y los mejores ingredientes, invita a explorar sabores que deleitan y sorprenden. El ambiente, cálido y acogedor, es el escenario perfecto para compartir momentos inolvidables. Les invitamos a relajarse, saborear y dejarse consentir por nuestro equipo, que se esmera en hacer de su visita una ocasión especial. Que disfruten cada instante."
-            imagen="/restaurante/imagen-portada.JPG"
+            imagen="restaurante/imagen-portada.JPG"
         />
 
         <section>
@@ -34,73 +34,73 @@ export default function App() {
             <div className='carrusel'> 
                 <div className='cinta'>
                   <img
-                      src="/restaurante/imagen-pate.JPG"
+                      src="restaurante/imagen-pate.JPG"
                       title="imagen de paté "
                       alt="imagen de paté"
                   />
                   
                   <img
-                      src="/restaurante/imagen-torrija.JPG"
+                      src="restaurante/imagen-torrija.JPG"
                       alt="imagen de torrija"
                       title="imagen de torrija"
                   />   
 
                   <img
-                      src="/restaurante/imagen-coctel.JPG"
+                      src="restaurante/imagen-coctel.JPG"
                       alt="imagen de coctel"
                       title="imagen de coctel"
                   />
                   
                   <img
-                      src="/restaurante/imagen-carne.JPG"
+                      src="restaurante/imagen-carne.JPG"
                       alt="imagen de carne"
                       title="imagen de carne"
                   />
 
                   <img
-                      src="/restaurante/imagen-ensaladilla.JPG"
+                      src="restaurante/imagen-ensaladilla.JPG"
                       alt="imagen de ensaladilla"
                       title="imagen de endaladilla"
                   />
 
                   <img
-                      src="/restaurante/imagen-tortitas.JPG"
+                      src="restaurante/imagen-tortitas.JPG"
                       alt="imagen de tortitas"
                       title="imagen de tortitas"
                   />
 
                   <img
-                      src="/restaurante/imagen-pate.JPG"
+                      src="restaurante/imagen-pate.JPG"
                       title="imagen de paté "
                       alt="imagen de paté"
                   />
                   
                   <img
-                      src="/restaurante/imagen-torrija.JPG"
+                      src="restaurante/imagen-torrija.JPG"
                       alt="imagen de torrija"
                       title="imagen de torrija"
                   />   
 
                   <img
-                      src="/restaurante/imagen-coctel.JPG"
+                      src="restaurante/imagen-coctel.JPG"
                       alt="imagen de coctel"
                       title="imagen de coctel"
                   />
                   
                   <img
-                      src="/restaurante/imagen-carne.JPG"
+                      src="restaurante/imagen-carne.JPG"
                       alt="imagen de carne"
                       title="imagen de carne"
                   />
 
                   <img
-                      src="/restaurante/imagen-ensaladilla.JPG"
+                      src="restaurante/imagen-ensaladilla.JPG"
                       alt="imagen de ensaladilla"
                       title="imagen de endaladilla"
                   />
 
                   <img
-                      src="/restaurante/imagen-tortitas.JPG"
+                      src="restaurante/imagen-tortitas.JPG"
                       alt="imagen de tortitas"
                       title="imagen de tortitas"
                   />    
@@ -111,7 +111,7 @@ export default function App() {
         <section className='actividades'> 
             <div className='eventos-comidas'>
                 <img
-                    src="/restaurante/evento-imagen.JPG"
+                    src="restaurante/evento-imagen.JPG"
                     alt="imagen-evento"
                     title="imagen-evento"
                 />
@@ -122,7 +122,7 @@ export default function App() {
                 </div>
 
                 <img
-                    src="/restaurante/coche-domicilio.JPG"
+                    src="restaurante/coche-domicilio.JPG"
                     alt="imagen-coche"
                     title="imagen-coche"
                 />             
@@ -146,7 +146,7 @@ export default function App() {
                 </p>
 
                 <img
-                    src="/restaurante/imagen-chef.JPG"
+                    src="restaurante/imagen-chef.JPG"
                     title="imagen del Chef"
                     alt="imagen del Chef"
                 />

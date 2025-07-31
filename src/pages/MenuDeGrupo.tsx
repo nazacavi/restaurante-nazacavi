@@ -12,7 +12,7 @@ export default function MenuDeGrupo() {
             <Hero
                   titulo="Menús de grupo"
                   subtitulo=""
-                  imagen="/menus-grupo/imagen-hero-menus.jpg"
+                  imagen="menus-grupo/imagen-hero-menus.jpg"
             />
         
             <main className="menus-de-grupo">

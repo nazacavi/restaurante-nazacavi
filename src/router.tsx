@@ -7,23 +7,23 @@ import Especialidades from "./pages/Especialidades";
 
 export const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/restaurante-nazacavi/',
         element: <App />,
     },
     {
-        path: '/carta',
+        path: '/restaurante-nazacavi/carta',
         element: <Carta />,
     },
     {
-        path: '/menu-de-grupo',
+        path: '/restaurante-nazacavi/menu-de-grupo',
         element: <MenuDeGrupo />,
     },
     {
-        path: '/reservas',
+        path: '/restaurante-nazacavi/reservas',
         element: <Reservas />,
     },
     {
-        path: '/especialidades',
+        path: '/restaurante-nazacavi/especialidades',
         element: <Especialidades />
     },
 ]);

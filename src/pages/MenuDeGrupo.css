@@ -1,8 +1,10 @@
 .menus-de-grupo {
-    background: url('/imagen-grupo/imagen-fondo-menus.jpg');/*no se aplica*/
+    background: url('/menus-grupo/imagen-fondo-menus.jpg');/*no se aplica*/
     background-repeat: no-repeat;       
     background-size: cover;            
     background-position: center center; 
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
     padding: 32px 64px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +24,10 @@
     background-color: rgba(255, 255, 255, 0.15);/*no se aplica*/
     backdrop-filter: blur(10px);/*no se aplica*/
     -webkit-backdrop-filter: blur(10px);/*no se aplica*/
+}
 
+.menus-de-grupo .menu summary {
+    cursor: pointer;
 }
 
 .menus-de-grupo .menu ol {

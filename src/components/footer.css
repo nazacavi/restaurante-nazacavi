@@ -118,13 +118,18 @@ footer .redes-sociales {
   color: #4b4b4b;
   font-size: 10px;
   gap: 8px;
-}
+} 
 
 footer .redes-sociales a { 
   color: #fff;
-  font-size: 15px;
+  font-size: 23px;
   margin-bottom: 30px;
-  margin-top: 50px;   
+  margin-top: 50px;
+  padding: 3px;   
+}
+
+footer .redes-sociales a:hover {
+  color: rgb(165, 164, 164)
 }
 
 @media (max-width: 768px) {

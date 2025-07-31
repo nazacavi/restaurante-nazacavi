@@ -20,21 +20,34 @@ export default function Carta() {
                       <caption>Del Mar a la Mesa</caption>
                       <tbody>
                           <tr>
-                            <td className='nombre-plato'>Lubina Salvaje al Horno</td>
+                            <td className='nombre-plato'>
+                              Lubina Salvaje al Horno
+                              <i title="Pescado y marisco" className="fa-fw fa-solid fa-fish" />
+                              <i className="fa-fw fa-solid fa-egg" />
+                            </td>
                             <td className='precio-plato'>38€</td>
                           </tr>
                           <tr>
                             <td className='descripcion-plato' colSpan={2}>Lomo de lubina salvaje cocinado a la perfección, acompañado de una suave y aromática emulsión de azafrán y una selección de verduras frescas de nuestra huerta.</td>
                           </tr>
                           <tr>
-                            <td className='nombre-plato'>Gamba Roja de Garrucha</td>
+                            <td className='nombre-plato'>
+                              Gamba Roja de Garrucha
+                              <abbr title="Pescado y marisco">
+                                <i className="fa-fw fa-solid fa-fish" />
+                              </abbr>
+                            </td>
                             <td className='precio-plato'>48€</td>
                           </tr>
                           <tr>
                             <td className='descripcion-plato' colSpan={2}>Exquisitas gambas rojas, cocinadas en su punto justo para preservar su sabor dulce y marino, realzadas con un aire cítrico y la intensidad de la sal de jamón ibérico.</td>
                           </tr>
                           <tr>
-                            <td className='nombre-plato'>Merluza de Pincho a la Romana</td>
+                            <td className='nombre-plato'>
+                              Merluza de Pincho a la Romana
+                              <i className="fa-fw fa-solid fa-wheat-awn" />
+                              <i className="fa-fw fa-solid fa-fish" />
+                            </td>
                             <td className='precio-plato'>35€</td>
                           </tr>
                           <tr>

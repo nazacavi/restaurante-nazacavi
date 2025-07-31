@@ -31,7 +31,8 @@ header nav .enlace {
   transition: transform 0.3s;
 }
 
-header nav .enlace:hover {
+header nav .enlace:hover,
+header nav .enlace.actual {
   background-color: var(--color-principal); 
   color: white;
 }

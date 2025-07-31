@@ -5,7 +5,7 @@ export default function Header() {
         <>
             <header>
               <img
-                  src="/logo.jpg"
+                  src="/logo.png"
                   height="100px"
                   width="150px"
                   title="logo"
@@ -13,11 +13,36 @@ export default function Header() {
               />
 
               <nav>
-                  <a className="enlace"href="/">INICIO</a>
-                  <a className="enlace" href="/carta">CARTA</a>	
-                  <a className="enlace" href="/especialidades">ESPECIALIDADES</a>	
-                  <a className="enlace" href="/menu-de-grupo">MENÚS DE GRUPO</a>
-                  <a className="enlace" href="/reservas">RESERVAS</a>
+                  <a
+                    className={`enlace ${window.location.pathname === '/' ? 'actual' : ''}`}
+                    href="/"
+                  >
+                    INICIO
+                  </a>
+                  <a
+                    className={`enlace ${window.location.pathname === '/carta' ? 'actual' : ''}`}
+                    href="/carta"
+                  >
+                    CARTA
+                  </a>	
+                  <a
+                    className={`enlace ${window.location.pathname === '/especialidades' ? 'actual' : ''}`}
+                    href="/especialidades"
+                  >
+                    ESPECIALIDADES
+                  </a>	
+                  <a
+                    className={`enlace ${window.location.pathname === '/menu-de-grupo' ? 'actual' : ''}`}
+                    href="/menu-de-grupo"
+                  >
+                    MENÚS DE GRUPO
+                  </a>
+                  <a
+                    className={`enlace ${window.location.pathname === '/reservas' ? 'actual' : ''}`}
+                    href="/reservas"
+                  >
+                    RESERVAS
+                  </a>
               </nav>
             </header>
         </>

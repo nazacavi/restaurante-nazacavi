@@ -96,10 +96,10 @@ export default function Footer () {
                 </div>    
 
                 <div className="redes-sociales">
-                    <a href="#"><i id="facebook" className="fa-fw fa-brands fa-facebook" /></a>
-                    <a href="#"><i id="instagram" className="fa-fw fa-brands fa-instagram" /></a>
-                    <a href="#"><i id="linkedin" className="fa-fw fa-brands fa-linkedin-in" /></a> 
-                    <a href="#"><i className="fa-fw fa-brands fa-pinterest" /></a>
+                    <a href="https://www.facebook.com/?locale=es_ES"><i id="facebook" className="fa-fw fa-brands fa-facebook" /></a>
+                    <a href="https://www.instagram.com/"><i id="instagram" className="fa-fw fa-brands fa-instagram" /></a>
+                    <a href="https://www.linkedin.com/home"><i id="linkedin" className="fa-fw fa-brands fa-linkedin-in" /></a> 
+                    <a href="https://es.pinterest.com/"><i className="fa-fw fa-brands fa-pinterest" /></a>
                 </div>
             </footer>  
         </>

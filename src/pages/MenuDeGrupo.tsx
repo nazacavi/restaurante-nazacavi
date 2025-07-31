@@ -16,7 +16,7 @@ export default function MenuDeGrupo() {
             />
         
             <main className="menus-de-grupo">
-                <details className="menu">
+                <details className="menu" open>
                      <summary><i className="fa-solid fa-bars"></i>Menú 1</summary>
 
                     <ol className="menu-grupos">

@@ -1,0 +1,66 @@
+
+main {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom:80px ;
+}
+
+main section h1 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-bottom: 60px;
+    border-bottom: 3px solid var(--color-principal);
+    padding-bottom: 20px;;
+}
+
+main section h2 {
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    font-size: 1.9em;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+main section h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    color:#444; 
+}
+
+main section p, 
+main section address {
+    font-family: 'Garamond', 'Baskerville', 'Times New Roman', serif;
+    margin-top: 10px ;
+    line-height: 1.8;
+    color: #111;
+    text-align: justify;
+}
+
+main section ul {
+    margin-top: 16px;
+    padding-left: 2em;
+    list-style-type: disc;
+}
+
+main section ul li {
+    font-family: 'Garamond', 'Baskerville', 'Times New Roman', serif;
+    margin-top: 16px 0;
+    line-height: 1.9;
+    text-align: justify;
+    text-indent: 1.1em;
+    color: #111;
+    
+}
+
+main section address {
+    font-style: normal;
+    font-weight: bold;
+}

@@ -4,6 +4,10 @@ import Carta from "./pages/Carta";
 import MenuDeGrupo from "./pages/MenuDeGrupo";
 import Reservas from "./pages/Reservas";
 import Especialidades from "./pages/Especialidades";
+import PoliticaDePrivacidad from "./pages/PoliticaDePrivacidad";
+import PoliticaDeCookies from "./pages/PoliticaDeCookies";
+import AvisoLegal from "./pages/AvisoLegal";
+
 
 export const router = createBrowserRouter([
     {
@@ -25,5 +29,17 @@ export const router = createBrowserRouter([
     {
         path: '/restaurante-nazacavi/especialidades',
         element: <Especialidades />
+    },
+    {
+        path: '/restaurante-nazacavi/politica-de-privacidad',
+        element: <PoliticaDePrivacidad />
+    },
+    {
+        path: '/restaurante-nazacavi/politica-de-cookies',
+        element: <PoliticaDeCookies />
+    },
+     {
+        path: '/restaurante-nazacavi/aviso-legal',
+        element: <AvisoLegal />
     },
 ]);

@@ -1,9 +1,11 @@
-
-//import './Footer.css';
+import BannerCookies from './BannerCookies';
+import './Footer.css';
 
 export default function Footer () {
     return (
         <>
+            <BannerCookies />
+
             <footer>  
                 <div className="menu">
                     <img
@@ -33,26 +35,26 @@ export default function Footer () {
 
                             <div className="direccion">
                                 <i className="fa-solid fa-location-dot fa-fw" />
-                                <address>Plaza del la Constitución 6, 00958, Madrid</address>
+                                <address>C/ Mar y Sol, Nº25, 28045 - Madrid</address>
                             </div>
 
                             <div>
                                 <i className="fa-solid fa-mobile-screen-button fa-fw" />
-                                <a href="tel:672125807">Móvil: 52412587</a>
+                                <a href="tel:656254977">Móvil: 656254977</a>
                             </div>
 
                             <div>
                                 <i className="fa-solid fa-envelope fa-fw" />
-                                <a href="mailto:nacavi@hotmail.es">Email: nacavi@hotmail.es</a>
+                                <a href="mailto:info@restaurante-nazacavi.es">Email: info@restaurante-nazacavi.es</a>
                             </div>
                         </div>
 
                         <div className="legal">
                             <h3>Enlaces de interés</h3>
                             <ul>
-                                <li><a href="#">Aviso legal</a></li>
-                                <li><a href="#">Política de privacidad</a></li>
-                                <li><a href="#">Política de cookies</a></li>
+                                <li><a href="/restaurante-nazacavi/aviso-legal">Aviso legal</a></li>
+                                <li><a href="/restaurante-nazacavi/politica-de-privacidad">Política de privacidad</a></li>
+                                <li><a href="/restaurante-nazacavi/politica-de-cookies">Política de cookies</a></li>
                             </ul>
                         </div>
                     </div> 
@@ -96,10 +98,35 @@ export default function Footer () {
                 </div>    
 
                 <div className="redes-sociales">
-                    <a href="https://www.facebook.com/?locale=es_ES"><i id="facebook" className="fa-fw fa-brands fa-facebook" /></a>
-                    <a href="https://www.instagram.com/"><i id="instagram" className="fa-fw fa-brands fa-instagram" /></a>
-                    <a href="https://www.linkedin.com/home"><i id="linkedin" className="fa-fw fa-brands fa-linkedin-in" /></a> 
-                    <a href="https://es.pinterest.com/"><i className="fa-fw fa-brands fa-pinterest" /></a>
+                    <a 
+                        href="https://www.facebook.com/?locale=es_ES"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                            <i id="facebook"className="fa-fw fa-brands fa-facebook" />
+                    </a>
+
+                    <a 
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                            <i id="instagram" className="fa-fw fa-brands fa-instagram" />
+                    </a>
+
+                    <a href="https://www.linkedin.com/home"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i id="linkedin" className="fa-fw fa-brands fa-linkedin-in" />
+                    </a> 
+
+                    <a href="https://es.pinterest.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i className="fa-fw fa-brands fa-pinterest" />
+                    </a>
                 </div>
             </footer>  
         </>

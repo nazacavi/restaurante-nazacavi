@@ -23,11 +23,19 @@
     padding: 32px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 20px;
 }
 
 #hero .text h1,
 #hero .text p {
     color: white;
-    text-align: center;
+    text-align: center;  
 }
+
+#hero .text p {
+  max-width:50%;
+  line-height: 25px;
+  text-align: justify;
+  margin: 0 auto;
+}
+

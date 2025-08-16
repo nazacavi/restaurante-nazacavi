@@ -8,7 +8,7 @@ export default function PoliticaDeCookies() {
         <>
             <Header />
 
-            <main>
+            <main className='politica-cookies'>
                 <section>
                     <h1>POLÍTICA DE COOKIES</h1>
 

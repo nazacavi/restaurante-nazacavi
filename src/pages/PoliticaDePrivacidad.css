@@ -1,0 +1,58 @@
+
+main.politica-privacidad {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom:80px ;
+}
+
+main section h1 {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-bottom: 60px;
+    border-bottom: 3px solid var(--color-principal);
+    padding-bottom: 20px;;
+}
+
+main section h2 {
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    font-size: 1.8em;
+    margin-top: 70px;
+    margin-bottom: 45px;
+    color: #333;    
+}
+
+main section h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+    color:#444; 
+    font-style: italic;
+}
+
+main section p {
+    font-family: 'Garamond', 'Baskerville', 'Times New Roman', serif;
+    margin-top: 14px ;
+    line-height: 1.8;
+    color: #111;
+    text-align: justify;
+}
+
+main section ul {
+    margin-top: 16px;
+    padding-left: 2em;  
+}
+
+main section ul li {
+    font-family: 'Garamond', 'Baskerville', 'Times New Roman', serif;
+    margin-top: 16px 0;
+    line-height: 1.9;
+    text-align: justify;
+    color: #111;
+}

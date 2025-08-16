@@ -1,5 +1,5 @@
 
-main {
+main.aviso-legal {
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -28,8 +28,8 @@ main section h2 {
 main section h3 {
     font-family: "Playfair Display", serif;
     font-size: 1.5em;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     margin-left: 20px;
     font-weight: bold;
     color:#444; 
@@ -48,7 +48,6 @@ main section address {
 main section ul {
     margin-top: 16px;
     padding-left: 2em;
-    list-style-type: disc;
 }
 
 main section ul li {
@@ -56,9 +55,7 @@ main section ul li {
     margin-top: 16px 0;
     line-height: 1.9;
     text-align: justify;
-    text-indent: 1.1em;
-    color: #111;
-    
+    color: #111;    
 }
 
 main section address {

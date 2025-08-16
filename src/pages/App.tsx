@@ -17,10 +17,10 @@ export default function App() {
         />
 
         <section>
-            <div className="especialidades-informacion">
-                <h2>Especialidades</h2>
+            <div className="especialidades-box">
+                <h2 className='nombre-especialidades'>Especialidades</h2>
 
-                <p> 
+                <p className='texto-especialidades'> 
                     En nuestro restaurante, las especialidades en carnes son el alma del menú, preparadas con pasión y sabor auténtico.
                     Disfruta de una carta de cócteles creativos, perfectos para cada ocasión.
                     Y no te vayas sin probar nuestros postres artesanales, el dulce final que merece tu paladar.

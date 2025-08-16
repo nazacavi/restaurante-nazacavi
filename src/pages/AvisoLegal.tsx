@@ -7,7 +7,8 @@ export default function AvisoLegal() {
     return (
         <>
             <Header />
-            <main>
+            
+            <main className='aviso-legal'>
                 <section>
                     <h1>AVISO LEGAL Y CONDICIONES GENERALES DE USO</h1> 
 

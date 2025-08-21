@@ -101,7 +101,7 @@ main section .eventos-comidas {
 
 }
 
-main .actividades .eventos-comidas img {
+main .actividades .eventos-comidas .imagen-fiesta {
   width: 500px;
   height: 350px;
   border-radius: 8px;
@@ -115,20 +115,28 @@ main .actividades .texto-eventos-comidas {
 
 main section .texto-eventos-comidas h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 2em;
-  font-weight: 700
+  font-size: 2.3em;
+  text-align: center;
 }
 
+main .actividades .eventos-comidas .imagen-coche {
+  width: 500px;
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+ }
+
 main .seccion-chef {
-  background-color:#f2eeee ;
+  background-color:#f2eeee;
+  display: flex;
+  flex-direction: column;
 }
 
 main .seccion-chef h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 2em;
-  font-weight: 700;
+  font-size: 4em;
   text-align: center;
-  padding: 50px;
+  padding: 40px;
 }
 
 main .seccion-chef .contenedor-chef {
@@ -154,6 +162,15 @@ main .seccion-chef .contenedor-chef  p {
 
 }
 
+main .seccion-chef .contenedor-chef .contenedor-chef img {
+  width: 100%;
+}
+
+main .actividades .eventos-comidas img {
+  width: 100%;
+  height: auto;
+}  
+
 @media (max-width: 768px ) {
   main section  .carrusel {
     max-width: 100%;
@@ -161,27 +178,53 @@ main .seccion-chef .contenedor-chef  p {
   }
 }
 
+
 @media (max-width: 768px) {
-  main .actividades .eventos-comidas {
+  main section .especialidades-box {
+     display: flex;
+     flex-direction: column;
+   }
+
+  main section  div .nombre-especialidades {
+   font-size: 160%;
+  }
+}
+
+@media (max-width: 768px) {
+  main section .eventos-comidas {
+     display: flex;
+     flex-direction: column;
+     padding: 15%;
+  } 
+}
+
+@media (max-width: 768px) {
+  main .seccion-chef {
+     display: flex;
+     flex-direction: column;
+     padding: 15%; 
+  }
+    
+  main section .contenedor-chef {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  main .actividades .eventos-comidas img {
-    width: 100%;
-    height: auto;
+  main section .contenedor-chef p {
+    max-width: 80%;
+    
   }
 }
 
-@media (max-width: 768px) {
-  main .seccion-chef .contenedor-chef {
-  flex-direction: column;
-}
+  
 
-main .seccion-chef .contenedor-chef .contenedor-chef img {
-  width: 100%;
-}
-}
+
+
+
+
+
+
 
 
 

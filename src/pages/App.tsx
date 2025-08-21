@@ -108,20 +108,20 @@ export default function App() {
             </div>
         </section>
 
-        <section className='actividades'> 
-            <div className='eventos-comidas'>
-                <img
+        <section className="actividades"> 
+            <div className="eventos-comidas">
+                <img className="imagen-fiesta"
                     src="restaurante/evento-imagen.JPG"
                     alt="imagen-evento"
                     title="imagen-evento"
                 />
 
-                <div className='texto-eventos-comidas'>
+                <div className="texto-eventos-comidas">
                     <h2>Sabores que viajan contigo</h2>
                     <p>Delicias listas para llevar o para compartir en tu evento especial.</p>
                 </div>
 
-                <img
+                <img className= "imagen-coche"
                     src="restaurante/coche-domicilio.JPG"
                     alt="imagen-coche"
                     title="imagen-coche"
@@ -133,18 +133,8 @@ export default function App() {
               <h2>Nuestro Chef</h2>
 
               <div className="contenedor-chef">
-                <p>
-                    En el corazón de nuestra cocina se encuentra el alma de nuestro restaurante: el chef.
-                    Reconocido como uno de los mejores en su arte, su talento ha sido galardonado con premios internacionales.
-                    Cada platillo que crea es una obra maestra, combinando técnica, creatividad y pasión.
-                    Su experiencia en cocinas de renombre mundial se refleja en cada detalle del menú.
-                    Bajo su dirección, hemos elevado la gastronomía a otro nivel.
-                    No solo cocina, crea experiencias que conquistan todos los sentidos.
-                    Gracias a su visión, nuestro restaurante se ha posicionado entre los mejores.
-                    Ven a probar el sabor de una cocina con sello de excelencia mundial.
-                    Nuestro chef no se detiene. Cada temporada, renueva la carta con propuestas audaces que sorprenden y deleitan. 
-                </p>
-
+                <p>En el corazón de nuestra cocina se encuentra el alma de nuestro restaurante: el chef. Reconocido como uno de los mejores en su arte, su talento ha sido galardonado con premios internacionales. Cada platillo que crea es una obra maestra, combinando técnica, creatividad y pasión. Su experiencia en cocinas de renombre mundial se refleja en cada detalle del menú. Bajo su dirección, hemos elevado la gastronomía a otro nivel. No solo cocina, crea experiencias que conquistan todos los sentidos. Gracias a su visión, nuestro restaurante se ha posicionado entre los mejores. Ven a probar el sabor de una cocina con sello de excelencia mundial. Nuestro chef no se detiene. Cada temporada, renueva la carta con propuestas audaces que sorprenden y deleitan.</p>
+                    
                 <img
                     src="restaurante/imagen-chef.JPG"
                     title="imagen del Chef"

@@ -10,7 +10,8 @@ footer {
 footer .menu {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 15px 121px;
 }
 
 footer .menu .secciones .enlace {
@@ -148,10 +149,21 @@ footer .redes-sociales a:hover {
   footer .informacion {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    width: 80%;
+    margin-left: 30px;
   }
   
   footer .horario table {
     width: 100%;
+  }
+
+  footer .informacion .contenedor {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  footer .informacion .contenedor .contacto {
+    margin: 10%;
   }
 }

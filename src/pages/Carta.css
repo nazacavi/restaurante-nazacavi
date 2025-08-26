@@ -1,81 +1,158 @@
 
- main section table {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+
+main .categorias-menu { 
+  max-width: 800px;
+  margin: 0 auto;
+}
+ main .categorias-menu .categoria-pescados h2,
+ main .categorias-menu .categoria-carnes h2,
+ main .categorias-menu .categoria-postres h2 {
+  text-align: center;
+  font-family: "Ephesis", cursive;
+  font-size: 3rem;
+  border:2px solid var(--color-principal);
+  width: 350px;
+  line-height: 0.6em;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-style: italic;
+ }
+
+main section .pescado-box,
+main section .carne-box,
+main section .postre-box {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px ;
 }
 
-main section table caption {
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-family: "Ephesis", cursive;
-    font-size: 3rem;
-    border:2px solid var(--color-principal);
-    width: 350px;
-    line-height: 0.6em;
-    margin-left: auto;
-    margin-right: auto;
+.descripcion-precio-box {
+  display: flex;
+  padding-top: 5px;
+  justify-content: space-between;
 }
 
-main section table tbody .nombre-plato {
-    font-size: 20px;
+.nombre-plato {
+  font-size:22px;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
-main section table tbody .nombre-plato i {
-    border: 1px solid gray;
-    border-radius: 100px;
-    font-size: 16px;
-    margin-left: 8px;
+.precio-plato {
+  color:black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.2);
+  font-size: 15px;
+  padding-left: 30px;
+  padding-top: 17px;
 }
 
-
-main section table tbody .nombre-plato i.fa-fish {
-    color: brown;
-    border-color: brown;
-}
-
-
-main section table tbody .nombre-plato i.fa-egg {
-    color: lightskyblue;
-    border-color: lightskyblue;
+.descripcion-plato {
+   font-family:'Playfair Display', serif;
+   font-style: italic;
+   font-size: 16px;  
 }
 
 
-main section table tbody .nombre-plato i.fa-wheat-awn {
-    color: lightcoral;
-    border-color: lightcoral;
+.comida-llevar h2 {
+   text-align: center;
+  font-family: "Ephesis", cursive;
+  font-size: 3rem;
+  border:2px solid black;
+  width: 350px;
+  line-height: 0.6em;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--color-principal);
+  font-style: italic;
 }
 
-main section table tr .descripcion-plato {         
-  padding: 10px; 
+.comida-llevar {
+  padding-bottom: 6cm;
+  padding-top: 25px;
 }
 
-div .vino-coctel {
-    font-family: "Ephesis", cursive;
-    font-size: 18px;
+.iconos i {
+  font-size: 17px;
+  margin-left: 10px;  
+}
+
+.iconos i.fa-fish {
+  color: rgb(165, 42, 42);
+}
+
+.iconos i.fa-egg {
+  color: rgb(178, 221, 247);
+}
+
+.iconos i.fa-wheat-awn {
+  color: rgb(248, 185, 185);
+}
+
+.iconos  i.fa-seedling {
+  color: rgb(55, 114, 55);
+ }
+
+
+.iconos  i.fa-cheese {
+  color: rgb(243, 200, 90);
+}
+
+
+.vino-coctel {
+  font-size: 19px;
+  margin: 19px;
+  padding: 19px;
+  text-align: center;
+  font-style: italic;
+}
+
+.nombre-plato-llevar {
+  font-family:'Playfair Display', serif;
+  font-size: 16px; 
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.precio-plato-llevar{
+  color:black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.2);
+  font-size: 15px;
+  padding-left: 30px;
+  padding-top: 17px;
+}
+
+.nombre-plato-incono-box-llevar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+@media (max-width: 768px) {
+  main .categorias-menu {
     margin: 20px;
-    padding: 20px;
-    text-align: center; 
- }
+    display: flex;
+    flex-direction: column;
+    
+  }
 
- main section h2 {
+  .categoria-pescados,
+  .categoria-carnes,
+  .categoria-postres,
+  .comida-llevar {
+    display: flex;
+    flex-direction: column;
+    padding:15%;
     text-align: center;
-    color: rgb(15, 15, 15);
-    margin-bottom: 10px;
-    font-style: italic;
- }
+  }
 
-.entrantes,
-.plato-principal,
-.postres {
-    font-family: "Ephesis", cursive;
-    font-size: 20px;
-    padding-top: 20px;
+  .categoria-carnes h2,
+  .categoria-pescados h2,
+  .categoria-postres h2,
+  .categorias-menu h2 {
+   max-width: 200px;
+  }
 }
-
-@media(max-width:768) {
-    section table {
-        width: 100%;
-    }
-}
-

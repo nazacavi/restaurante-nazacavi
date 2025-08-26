@@ -21,6 +21,12 @@
     filter: invert(100%);
 }
 
+@media (max-width: 500px) {
+    #cookies img {
+        display: none;
+    }
+}
+
 #cookies a,
 #cookies button {
     flex-shrink: 0;

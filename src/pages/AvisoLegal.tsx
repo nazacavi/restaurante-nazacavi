@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import FooterComponent from '../components/FooterComponent';
 import './AvisoLegal.css';
 
 
@@ -100,7 +100,7 @@ export default function AvisoLegal() {
                 </section>
             </main>
             
-            <Footer/>
+            <FooterComponent/>
         </>
     );
 }

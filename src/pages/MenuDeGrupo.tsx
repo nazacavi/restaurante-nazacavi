@@ -1,6 +1,6 @@
 import './MenuDeGrupo.css';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import FooterComponent from '../components/FooterComponent';
 import Hero from '../components/Hero';
 
 
@@ -17,7 +17,7 @@ export default function MenuDeGrupo() {
         
             <main className="menus-de-grupo">
                 <details className="menu" open>
-                     <summary><i className="fa-solid fa-bars"></i>Menú 1</summary>
+                     <summary><i className="fa-solid fa-utensils"></i>Menú 1</summary>
 
                     <ol className="menu-grupos">
                         <li>
@@ -71,7 +71,7 @@ export default function MenuDeGrupo() {
                 </details>
 
                 <details className="menu">
-                      <summary><i className="fa-solid fa-bars"></i>Menú 2</summary>
+                      <summary><i className="fa-solid fa-utensils"></i>Menú 2</summary>
 
                     <ol>
                     <li>
@@ -125,7 +125,7 @@ export default function MenuDeGrupo() {
                 </details>
 
                 <details className="menu">
-                    <summary><i className="fa-solid fa-bars"></i>Menú 3</summary>
+                    <summary><i className="fa-solid fa-utensils"></i>Menú 3</summary>
 
                     <ol>
                         <li>
@@ -179,7 +179,7 @@ export default function MenuDeGrupo() {
                 </details>
             </main>
     
-            <Footer/>
+            <FooterComponent/>
         </>
     );
 }

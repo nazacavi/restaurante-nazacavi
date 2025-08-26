@@ -20,11 +20,15 @@ h1 {
 .nombre-especialidades {
   font-size:  4em;
   align-items: center;
+  font-style: italic;
 }
 .texto-especialidades {
   align-items: center;
   max-width:50%;
   line-height: 35px;
+  font-family:  'Display', serif;
+  font-style: italic;
+  font-size: 18px
 }
 
 .carrusel {
@@ -82,7 +86,7 @@ main section .especialidades-informacion {
 main  section .especialidades-informacion h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2em;
-  font-weight: 700
+  font-weight: 700;
 }
 
 
@@ -111,12 +115,17 @@ main .actividades .eventos-comidas .imagen-fiesta {
 main .actividades .texto-eventos-comidas {
   max-width: 800px;
   text-align: center;
- }
+  font-style: italic;
+  font-size: 19px;
+  font-family: 'Playfair Display', serif;
+}
+ 
 
 main section .texto-eventos-comidas h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2.3em;
   text-align: center;
+  font-style: italic;
 }
 
 main .actividades .eventos-comidas .imagen-coche {
@@ -137,6 +146,7 @@ main .seccion-chef h2 {
   font-size: 4em;
   text-align: center;
   padding: 40px;
+  font-style: italic;
 }
 
 main .seccion-chef .contenedor-chef {
@@ -159,7 +169,9 @@ main .seccion-chef .contenedor-chef  p {
  width: 450px;
  margin-bottom: 40px;
  margin-top: 10px;
-
+ font-family:  'Display', serif;
+ font-style: italic;
+ font-size: 18px
 }
 
 main .seccion-chef .contenedor-chef .contenedor-chef img {

@@ -1,6 +1,6 @@
 import './App.css';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import FooterComponent from '../components/FooterComponent';
 import Hero from '../components/Hero';
 
 export default function App() {
@@ -144,7 +144,7 @@ export default function App() {
         </section>
       </main>
 
-      <Footer/>          
+      <FooterComponent/>          
     </>
   );
 };

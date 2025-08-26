@@ -25,9 +25,14 @@ main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidade
 }
 
 main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades .contenedor-texto-especialidades  h2 {
-  font-family: 'Playfair Display', serif;
+
   font-size: 3em;
-  font-weight: 700;
+  font-weight: 600;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.6);
+  text-align: center;
+  font-family: "Ephesis", cursive;
+  color: var(--color-principal);;
 }
 
 main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidades .contenedor-texto-especialidades p {
@@ -36,7 +41,8 @@ main .contenedor-principal-especialidades .contenedor-imagen-texto-especialidade
   line-height: 1.8;
   text-indent: 1em; 
   width:80% ;
-  text-align: justify; 
+  text-align: justify;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {

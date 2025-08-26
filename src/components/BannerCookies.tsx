@@ -2,16 +2,18 @@ import './BannerCookies.css';
 import { useState } from 'react';
 
 export default function BannerCookies() {
-    const [mostrarCookies, setMostrarCookies] = useState(true);
+    const mostrarCookiesSessionStorage = sessionStorage.getItem('mostrar-cookies') || '1';
+    const [mostrarCookies, setMostrarCookies] = useState(Boolean(Number(mostrarCookiesSessionStorage)));
 
     function ocultarBanner() {
+        sessionStorage.setItem('mostrar-cookies', '0');
         setMostrarCookies(false);
     } 
 
     return (
         <>
         {
-            !!mostrarCookies
+            Boolean(mostrarCookies)
             ?
                 <aside id="cookies">
                     <img src="cookie.png" alt="Imagen de una galleta" />

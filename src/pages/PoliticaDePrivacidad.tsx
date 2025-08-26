@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import FooterComponent from '../components/FooterComponent';
 import './PoliticaDePrivacidad.css';
 
 
@@ -154,7 +154,7 @@ export default function PoliticaDePrivacidad() {
                 </section>
             </main>
             
-            <Footer/>
+            <FooterComponent/>
         </>
     );
 }

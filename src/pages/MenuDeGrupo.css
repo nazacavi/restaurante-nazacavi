@@ -13,6 +13,13 @@
     min-height: 80vh;
 }
 
+@media (max-width: 768px) {
+    .menus-de-grupo {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .menus-de-grupo .menu {
     flex: 1;
     padding: 16px;
@@ -20,14 +27,20 @@
     border: 1px solid lightgray;
     box-shadow: 2px 2px 16px 8px #0001;
     color: rgb(23, 23, 23);
-   
-    background-color: rgba(255, 255, 255, 0.15);/*no se aplica*/
-    backdrop-filter: blur(10px);/*no se aplica*/
-    -webkit-backdrop-filter: blur(10px);/*no se aplica*/
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+    .menus-de-grupo .menu {
+        width:  100%;
+    }
 }
 
 .menus-de-grupo .menu summary {
     cursor: pointer;
+    font-style: italic;
 }
 
 .menus-de-grupo .menu ol {
@@ -46,20 +59,22 @@
 }
 
   main details ol li span {
-    font-family: 'Garamond', 'Baskerville', 'Times New Roman', serif;
+    font-family:'Playfair Display', serif;
     font-size: 20px;
     font-weight: bold;
+    font-style: italic;
  }
 
 main details summary {
- font-family: 'Garamond', 'Baskerville', 'Times New Roman', serif;
+ font-family:'Playfair Display', serif;
  font-size: 25px;
  font-weight: bold;
  list-style: none;
  text-align: center;
 }
 .menu i {
- padding-right: 4px;
- font-size: 15px;
+ padding-right: 10px;
+ font-size: 19px;
 }
+
 

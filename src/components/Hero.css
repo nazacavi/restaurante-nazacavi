@@ -12,6 +12,12 @@
     object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  #hero img {
+    min-height: 100%;
+  }
+}
+
 #hero .mask {
     position: absolute;
     inset: 0;
@@ -30,6 +36,7 @@
 #hero .text p {
     color: white;
     text-align: center;  
+    font-style: italic;
 }
 
 #hero .text p {
@@ -40,8 +47,6 @@
 }
 
 @media (max-width: 768px) {
-
-
   #hero .text {
     padding: 16px; 
   }
@@ -53,7 +58,6 @@
   #hero .text p {
     font-size: 16px;
     max-width: 80%;
-   
   }
 }
 

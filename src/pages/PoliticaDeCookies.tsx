@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import FooterComponent from '../components/FooterComponent';
 import './PoliticaDeCookies.css';
 
 
@@ -34,7 +34,7 @@ export default function PoliticaDeCookies() {
                 </section>
             </main>
             
-            <Footer/>
+            <FooterComponent/>
         </>
     );
 }

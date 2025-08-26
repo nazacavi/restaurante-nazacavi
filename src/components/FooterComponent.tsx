@@ -1,7 +1,7 @@
 import BannerCookies from './BannerCookies';
-import './Footer.css';
+import './FooterComponent.css';
 
-export default function Footer () {
+export default function FooterComponent () {
     return (
         <>
             <BannerCookies />

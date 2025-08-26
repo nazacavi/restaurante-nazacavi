@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import FooterComponent from '../components/FooterComponent';
 import Hero from '../components/Hero';
 import './Reservas.css';
 
@@ -34,7 +34,10 @@ export default function Reservas() {
             return;
         }
 
-        alert('Reserva enviada correctamente')
+        alert('Reserva enviada correctamente');
+
+        const formulario = document.getElementById('datos');
+        formulario.reset();
     }
     
     return (
@@ -111,7 +114,7 @@ export default function Reservas() {
                 </div>
             </main>
     
-            <Footer/>
+            <FooterComponent/>
        </>
     );
 }

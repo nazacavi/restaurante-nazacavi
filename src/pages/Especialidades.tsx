@@ -16,8 +16,8 @@ export default function Especialidades() {
                     imagen="especialidades/imagen-tarta-presentacion.JPG"
                 />
 
-                <div className="contenedor-principal-especialidades">
-                    <div className="contenedor-imagen-texto-especialidades">
+                <section className="contenedor-principal-especialidades">
+                    <article className="contenedor-imagen-texto-especialidades">
                         <img
                           src="./especialidades/imagen-fuego-patagonico.JPG"
                           title="Fuego Patagónico"
@@ -29,9 +29,9 @@ export default function Especialidades() {
 
                             <p>Jugoso corte de cordero patagónico cocinado a la leña, marinado en finas hierbas andinas y especias ahumadas. Acompañado de puré rústico de papas moradas y una reducción de malbec. Un tributo a la cocina de fuego y a la intensidad del sur.</p> 
                         </div>
-                    </div>
+                    </article>
 
-                    <div className="contenedor-imagen-texto-especialidades">
+                    <article className="contenedor-imagen-texto-especialidades">
                         <div className="contenedor-texto-especialidades">
                             <h2>Osobuco riojano </h2>
 
@@ -43,9 +43,9 @@ export default function Especialidades() {
                             alt="Nocturno Imperial"
                             title="Nocturno Imperial"
                         />   
-                    </div>
+                    </article>
 
-                    <div className="contenedor-imagen-texto-especialidades">
+                    <article className="contenedor-imagen-texto-especialidades">
                         <img
                         src="./especialidades/imagen-milhojas-bruma.JPG"
                         alt="Milhojas de Bruma"
@@ -57,9 +57,9 @@ export default function Especialidades() {
 
                             <p>Crujiente hojaldre artesanal relleno de carne estofada lentamente con cebolla caramelizada, vino oporto y un toque de mostaza antigua. Servido sobre un coulis de tomate confitado. Un plato que equilibra tradición y modernidad.</p>
                         </div>
-                    </div>
+                    </article>
 
-                    <div className="contenedor-imagen-texto-especialidades">
+                    <article className="contenedor-imagen-texto-especialidades">
                         <div className="contenedor-texto-especialidades">
                             <h2>Sombra de Cacao</h2>
 
@@ -71,9 +71,9 @@ export default function Especialidades() {
                            alt="Sombra de cacao"
                            title="Sombra de cacao"
                        />
-                    </div>
+                    </article>
 
-                    <div className="contenedor-imagen-texto-especialidades">
+                    <article className="contenedor-imagen-texto-especialidades">
                         <img
                            src="./especialidades/imagen-almendra-dorada.JPG"
                            alt="Almendra Dorada"
@@ -85,9 +85,9 @@ export default function Especialidades() {
 
                             <p>Tarta cremosa elaborada con turrón de Jijona, sobre base de galleta tostada y un suave velo de miel. Coronada con almendras crocantes y un toque de nata infusionada en azahar. Tradición reinventada.</p>
                         </div>   
-                    </div>
+                    </article>
 
-                    <div className="contenedor-imagen-texto-especialidades">
+                    <article className="contenedor-imagen-texto-especialidades">
                         <div className="contenedor-texto-especialidades">
                             <h2>Suspiro de Vainilla</h2>
 
@@ -99,9 +99,9 @@ export default function Especialidades() {
                            alt="Suspiro de Vainilla"
                            title="Suspiro de Vainilla"
                        />
-                    </div>
+                    </article>
 
-                    <div className="contenedor-imagen-texto-especialidades">
+                    <article className="contenedor-imagen-texto-especialidades">
                         <img
                             src="./especialidades/imagen-rubi-escondido.JPG"
                             alt="Rubí Escondido"
@@ -113,9 +113,9 @@ export default function Especialidades() {
 
                             <p>Mezcla vibrante de frutos rojos macerados, vodka premium, licor de flor de saúco y un toque de lima. Servido con hielo picado y decorado con arándanos frescos. Un cóctel intenso y seductor.</p>
                         </div>
-                    </div>
+                    </article>
 
-                    <div className="contenedor-imagen-texto-especialidades">
+                    <article className="contenedor-imagen-texto-especialidades">
                         <div className="contenedor-texto-especialidades">
                             <h2>Sol de Medianoche</h2>
 
@@ -127,8 +127,8 @@ export default function Especialidades() {
                            alt="Sol de Medianoche"
                            title="Sol de Medianoche"
                        />
-                    </div>
-                </div>
+                    </article>
+                </section>
             </main>
             
             <FooterComponent/>

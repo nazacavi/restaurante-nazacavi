@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import BannerCookies from './BannerCookies';
 import './FooterComponent.css';
 
@@ -18,11 +19,11 @@ export default function FooterComponent () {
                     />
 
                     <nav className="secciones">
-                        <a className="enlace" href="/restaurante-nazacavi/">inicio</a>
-                        <a className="enlace" href="/restaurante-nazacavi/carta">carta</a>
-                        <a className="enlace" href="/restaurante-nazacavi/especialidades">especialidades</a>
-                        <a className="enlace" href="/restaurante-nazacavi/menu-de-grupo">menú de grupo</a>
-                        <a className="enlace" href="/restaurante-nazacavi/reservas">reservas</a>
+                        <NavLink className="enlace" to="/">inicio</NavLink>
+                        <NavLink className="enlace" to="/carta">carta</NavLink>
+                        <NavLink className="enlace" to="/especialidades">especialidades</NavLink>
+                        <NavLink className="enlace" to="/menu-de-grupo">menú de grupo</NavLink>
+                        <NavLink className="enlace" to="/reservas">reservas</NavLink>
                     </nav>      
                 </div>
 

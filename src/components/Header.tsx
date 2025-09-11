@@ -1,4 +1,5 @@
 import './Header.css';
+import { NavLink } from "react-router";
 
 export default function Header() {
     return (
@@ -13,36 +14,36 @@ export default function Header() {
               />
 
               <nav>
-                  <a
+                  <NavLink
                     className={`enlace ${window.location.pathname === '/' ? 'actual' : ''}`}
-                    href="/restaurante-nazacavi/"
+                    to="/"
                   >
                     INICIO
-                  </a>
-                  <a
+                  </NavLink>
+                  <NavLink
                     className={`enlace ${window.location.pathname === '/carta' ? 'actual' : ''}`}
-                    href="/restaurante-nazacavi/carta"
+                    to="/carta"
                   >
                     CARTA
-                  </a>	
-                  <a
+                  </NavLink>	
+                  <NavLink
                     className={`enlace ${window.location.pathname === '/especialidades' ? 'actual' : ''}`}
-                    href="/restaurante-nazacavi/especialidades"
+                    to="/especialidades"
                   >
                     ESPECIALIDADES
-                  </a>	
-                  <a
+                  </NavLink>	
+                  <NavLink
                     className={`enlace ${window.location.pathname === '/menu-de-grupo' ? 'actual' : ''}`}
-                    href="/restaurante-nazacavi/menu-de-grupo"
+                    to="/menu-de-grupo"
                   >
                     MENÚS DE GRUPO
-                  </a>
-                  <a
+                  </NavLink>
+                  <NavLink
                     className={`enlace ${window.location.pathname === '/reservas' ? 'actual' : ''}`}
-                    href="/restaurante-nazacavi/reservas"
+                    to="/reservas"
                   >
                     RESERVAS
-                  </a>
+                  </NavLink>
               </nav>
             </header>
         </>

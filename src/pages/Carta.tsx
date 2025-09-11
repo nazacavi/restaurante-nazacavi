@@ -249,7 +249,6 @@ export default function Carta() {
                 </div>  
               </section> 
             </main>
-
             <FooterComponent/>          
         </>
     );

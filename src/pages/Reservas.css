@@ -43,3 +43,144 @@ main div button {
 main div button:hover {
   background-color: #616060;
 }
+
+
+
+/*
+import Header from '../components/Header';
+import FooterComponent from '../components/FooterComponent';
+import Hero from '../components/Hero';
+import './Reservas.css';
+import { useState } from 'react';
+
+export default function Reservas() {
+    const [errorNombre, setErrorNombre] = useState<string | null>(null);
+    let errorNombre2: string | null = null;
+    const [errorTelefono, setErrorTelefono] = useState<string | null>(null);
+    let errorTelefono2: string | null = null;
+
+    function enviarFormulario(event) {
+        setErrorNombre(null);
+        errorNombre2 = null;
+        setErrorTelefono(null);
+        errorTelefono2 = null;
+
+        event.preventDefault();
+
+        const nombre = document.getElementById('nombre').value
+        const telefono = document.getElementById('telefono').value
+
+        if (nombre === '') {
+            setErrorNombre('El nombre no puede estar vacío');
+            errorNombre2 = 'El nombre no puede estar vacío'
+        }
+
+        if (nombre.includes('0') || nombre.includes('1') || nombre.includes('2') ||
+            nombre.includes('3') || nombre.includes('4') || nombre.includes('5') ||
+            nombre.includes('6') || nombre.includes('7') || nombre.includes('8') ||
+            nombre.includes('9') || nombre.includes('.') || nombre.includes(','))  {
+            setErrorNombre('El nombre no puede contener números, puntos ni comas');
+            errorNombre2 = 'El nombre no puede contener números, puntos ni comas';
+        }
+
+        if (telefono.includes(' ') || telefono.includes('.') || telefono.includes(',') ) {
+            setErrorTelefono('El teléfono debe contener solo numeros sin espacios y símbolos');
+            errorTelefono2 = 'El teléfono debe contener solo numeros sin espacios y símbolos'
+        }
+
+        if (telefono.length < 9) {
+            setErrorTelefono('El teléfono debe tener al menos 9 dígitos');
+            errorTelefono2 = 'El teléfono debe tener al menos 9 dígitos'
+        }
+
+        if (!!errorNombre2 || !!errorTelefono2) {
+            return;
+        }
+
+        alert('Reserva enviada correctamente');
+
+        const formulario = document.getElementById('datos');
+        formulario.reset();
+    }
+
+    return (
+        <>
+            <Header/> 
+
+            <Hero
+                titulo="Haz tu reserva ahora"
+                subtitulo=""
+                imagen="reservas/Captura2.JPG"
+            />   
+
+            <main>
+                <div className='formulario'>
+                    <form
+                        onSubmit={enviarFormulario}
+                        id="datos"
+                    >
+                        <h2>Registro</h2>
+
+                        <label>
+                            <input
+                                id="nombre"
+                                type="text"
+                                name="nombre"
+                                placeholder='nombre'
+                                required
+                                className={!!errorNombre ? 'error' : ''}
+                            />
+                            { !!errorNombre ? errorNombre : '' }
+                        </label>
+
+                        <label>
+                            <input
+                                id="telefono"
+                                type="tel"
+                                name="telefono"
+                                placeholder='teléfono'
+                                required
+                                className={!!errorNombre ? 'error' : ''}
+                            />
+                            { !!errorTelefono ? errorTelefono : '' }
+                        </label>
+
+                        <label>
+                            <input
+                                type="number"
+                                min="1"
+                                max="50"
+                                name="comensales"
+                                placeholder='número de comensales'
+                                required
+                            />
+                        </label>
+
+                        <label>
+                            <input
+                                type="date"
+                                name="fecha"
+                                required
+                            />
+                        </label>
+
+                        <label>
+                            <input
+                                type="time"
+                                name="hola"
+                                required
+                            />
+                        </label>
+                    </form>
+
+                    <button form="datos">
+                        Reservar
+                    </button>
+                </div>
+            </main>
+    
+            <FooterComponent/>
+       </>
+    );
+}
+*/

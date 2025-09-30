@@ -5,6 +5,10 @@ import './Reservas.css';
 
 export default function Reservas() {
 
+    function algo(a: string, b: string): string {
+        return a + b;
+    }
+
     function borrarErrores() {
         const $errores = document.getElementsByClassName('mensaje-error');
         for(const $error of $errores) {
@@ -15,7 +19,7 @@ export default function Reservas() {
         for(const $input of $inputs) {
             $input.style.border = '1px solid #979595';
         }
-    }
+    } 
 
     function enviarFormulario(event) {
         borrarErrores();

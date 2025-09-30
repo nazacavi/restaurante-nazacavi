@@ -1,0 +1,79 @@
+#chat {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: var(--color-principal);
+    width: 100vw;
+    max-width: 300px;
+    height: 450px;
+    box-shadow: 10px 10px 40px 1px rgba(0, 0, 0, .6);
+    border-radius: 0 8px 0 0;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Desactivamos el chat en móviles para que no tape todo el contenido */
+@media (max-width: 500px) {
+    #chat {
+        display: none;
+    }
+}
+
+#chat .mensajes {
+    flex: 1;
+    background: white;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    overflow: auto;
+}
+
+#chat .mensajes .mensaje {
+    background: #eee;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+#chat .mensajes .mensaje.usuario {
+    text-align: right;
+    align-self: flex-end;
+    background: var(--color-principal);
+}
+
+#chat .mensajes .btn-limpiar {
+    background: none;
+    border: 1px solid var(--color-principal);
+    border-radius: 4px;
+    padding: 4px 8px;
+    text-align: center;
+    align-self: center;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+#chat form {
+    display: flex;
+    gap: 4px;
+}
+
+#chat form label {
+    flex: 1;
+}
+
+#chat form label input {
+    width: 100%;
+    height: 32px;
+}
+
+#chat form button {
+    padding: 4px;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

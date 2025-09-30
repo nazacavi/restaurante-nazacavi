@@ -1,10 +1,12 @@
 import { NavLink } from 'react-router-dom';
 import BannerCookies from './BannerCookies';
 import './FooterComponent.css';
+import Chat from './Chat';
 
 export default function FooterComponent () {
     return (
         <>
+            <Chat />
             <BannerCookies />
 
             <footer>  

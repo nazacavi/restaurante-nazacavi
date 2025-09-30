@@ -2,13 +2,9 @@ import Header from '../components/Header';
 import FooterComponent from '../components/FooterComponent';
 import Hero from '../components/Hero';
 import './Reservas.css';
+import { useState } from 'react';
 
 export default function Reservas() {
-
-    function algo(a: string, b: string): string {
-        return a + b;
-    }
-
     function borrarErrores() {
         const $errores = document.getElementsByClassName('mensaje-error');
         for(const $error of $errores) {
@@ -69,6 +65,44 @@ export default function Reservas() {
         const formulario = document.getElementById('datos');
         formulario.reset();
     }
+
+    let map;
+    const COORDENADAS_RESTAURANTE = { lat: 37.784663566162735, lng: -3.7815352410237035 }
+    async function initMap() {
+      const { Map } = await google.maps.importLibrary("maps");
+
+      map = new Map(document.getElementById("map"), {
+        center: COORDENADAS_RESTAURANTE,
+        zoom: 20,
+      });
+    }
+    initMap();
+
+    const [distancia, setDistancia] = useState(0);
+    function obtenerDistanciaEntreDosCoordenadas(lat1, long1, lat2, long2) {
+    	const R = 6371; // Radio de la tierra
+
+    	const toRadians = (degree: number): number => degree * (Math.PI / 180);
+
+    	const dLat = toRadians(lat2 - lat1);
+    	const dLong = toRadians(long2 - long1);
+
+    	const a = Math.sin(dLat / 2) * Math.sin(dLat / 2)
+    		+ Math.cos(toRadians(lat1)) * Math.cos(toRadians(lat2))
+    		* Math.sin(dLong / 2) * Math.sin(dLong / 2);
+
+    	const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+    	return R * c; // Distancia en kilometros
+    }
+
+    async function calcularDistanciaAlUsuario() {
+        navigator.geolocation.getCurrentPosition((position) => {
+            const distanciaEnKm = obtenerDistanciaEntreDosCoordenadas(position.coords.latitude, position.coords.longitude, COORDENADAS_RESTAURANTE.lat, COORDENADAS_RESTAURANTE.lng);
+            setDistancia(distanciaEnKm);
+        });
+    }
+    calcularDistanciaAlUsuario();
     
     return (
         <>
@@ -81,6 +115,23 @@ export default function Reservas() {
             />   
 
             <main>
+                <div id="map" />
+
+                {
+                    distancia > 0 
+                    ?
+                        <p className="distancia">
+                            Estás a tan solo
+                            {
+                                distancia < 1
+                                    ? ` ${(distancia * 1000).toFixed(2)} metros `
+                                    : ` ${distancia.toFixed(2)} kilómetros `
+                            }
+                            de nuestro restaurante
+                            </p>
+                    : ''
+                }
+
                 <div className='formulario'>
                     <form
                         onSubmit={enviarFormulario}
